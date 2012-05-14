@@ -1741,7 +1741,7 @@
       </Description>
       <Alternate id="HumanMapViewerHomepage">
          <Title>Genome View</Title>
-         <Link>/mapview/map_search<Title>cgi?taxid=9606</Link>
+         <Link>/mapview/map_search.cgi?taxid=9606</Link>
       </Alternate>
       <Alternate id="BioProjectHumanRefSeqGenome">
          <Title>Reference Genome</Title>
@@ -1765,7 +1765,7 @@
       </Alternate>
       <Alternate id="HumanGenomeBLAST">
          <Title>BLAST</Title>
-         <Link>http://www<Title>ncbi<Title>nlm<Title>nih<Title>gov/blast/Blast<Title>cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_PROG_DEF=megaBlast&BLAST_SPEC=OGP__9606__9558</Link>
+         <Link>http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?PAGE_TYPE=BlastSearch&amp;PROG_DEF=blastn&amp;BLAST_PROG_DEF=megaBlast&amp;BLAST_SPEC=OGP__9606__9558</Link>
       </Alternate>
       <Alternate id="BioProjectHumanOverview">
          <Title>Studies and Datasets</Title>
@@ -1783,15 +1783,15 @@
       <Title>Database of Expressed Sequence Tags (dbEST)</Title>
       <Link>/nucest</Link>
       <Description>
-         <p>A divison of GenBank that contains short single-pass reads of cDNA (transcript) sequences<Title> dbEST can be searched directly through the Nucleotide EST Database<Title></p>
+         <p>A divison of GenBank that contains short single-pass reads of cDNA (transcript) sequences. dbEST can be searched directly through the Nucleotide EST Database.</p>
       </Description>
       <Alternate id="ESTSubmissionPortal">
          <Title>Submission</Title>
-         <Link>/dbEST/how_to_submit<Title>html</Link>
+         <Link>/dbEST/how_to_submit.html</Link>
       </Alternate>
       <Alternate id="ESTFTPSite">
          <Title>Download</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nlm<Title>nih<Title>gov/genbank/</Link>
+         <Link>ftp://ftp.ncbi.nlm.nih.gov/genbank/</Link>
       </Alternate>
       <Alternate id="ESTHelponBookshelf">
          <Title>Help</Title>
@@ -1813,15 +1813,15 @@
       <Title>Database of Genome Survey Sequences (GSS)</Title>
       <Link>/nucgss</Link>
       <Description>
-         <p>A division of GenBank that contains short single-pass reads of genomic DNA<Title> dbGSS can be searched directly through the Nucleotide GSS Database<Title></p>
+         <p>A division of GenBank that contains short single-pass reads of genomic DNA. dbGSS can be searched directly through the Nucleotide GSS Database.</p>
       </Description>
       <Alternate id="GSSSubmissionPortal">
          <Title>Submission</Title>
-         <Link>/dbGSS/how_to_submit<Title>html</Link>
+         <Link>/dbGSS/how_to_submit.html</Link>
       </Alternate>
       <Alternate id="GSSFTPSite">
          <Title>Download</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nlm<Title>nih<Title>gov/genbank/</Link>
+         <Link>ftp://ftp.ncbi.nlm.nih.gov/genbank/</Link>
       </Alternate>
       <Alternate id="GSSHelp">
          <Title>Help</Title>
@@ -1838,7 +1838,7 @@
       <Title>GenBank</Title>
       <Link>/genbank/</Link>
       <Description>
-         <p>The NIH genetic sequence database, an annotated collection of all publicly available DNA sequences<Title> GenBank is part of the International Nucleotide Sequence Database Collaboration, which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at NCBI<Title> These three organizations exchange data on a daily basis<Title> GenBank consists of several divisions, most of which can be accessed through the Nucleotide database<Title> The exceptions are the EST and GSS divisions, which are accessed through the Nucleotide EST and Nucleotide GSS databases, respectively<Title></p>
+         <p>The NIH genetic sequence database, an annotated collection of all publicly available DNA sequences. GenBank is part of the International Nucleotide Sequence Database Collaboration, which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at NCBI. These three organizations exchange data on a daily basis. GenBank consists of several divisions, most of which can be accessed through the Nucleotide database. The exceptions are the EST and GSS divisions, which are accessed through the Nucleotide EST and Nucleotide GSS databases, respectively.</p>
       </Description>
       <Alternate id="GenBankSubmissionGuide">
          <Title>Submission Guide</Title>
@@ -1846,15 +1846,15 @@
       </Alternate>
       <Alternate id="GenBankFTPSite">
          <Title>Download</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nlm<Title>nih<Title>gov/genbank/</Link>
+         <Link>ftp://ftp.ncbi.nlm.nih.gov/genbank/</Link>
       </Alternate>
       <Alternate id="GenBankRecordFormatExample">
          <Title>Example Record</Title>
-         <Link>/Sitemap/samplerecord<Title>html</Link>
+         <Link>/Sitemap/samplerecord.html</Link>
       </Alternate>
       <Alternate id="CurrentGenBankReleaseNotes">
          <Title>Current Release Info</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nih<Title>gov/genbank/gbrel<Title>txt</Link>
+         <Link>ftp://ftp.ncbi.nih.gov/genbank/gbrel.txt</Link>
       </Alternate>
       <Alternate id="GenBankPublication">
          <Title>Publication</Title>
@@ -1870,23 +1870,23 @@
       <Title>Gene Expression Omnibus (GEO) Datasets</Title>
       <Link>/gds</Link>
       <Description>
-         <p>Stores curated gene expression and molecular abundance DataSets assembled from the Gene Expression Omnibus (GEO) repository<Title> DataSet records contain additional resources, including cluster tools and differential expression queries<Title></p>
+         <p>Stores curated gene expression and molecular abundance DataSets assembled from the Gene Expression Omnibus (GEO) repository. DataSet records contain additional resources, including cluster tools and differential expression queries.</p>
       </Description>
       <Alternate id="GDSDownloadingInstructions">
          <Title>Download Guide</Title>
-         <Link>/geo/info/download<Title>html</Link>
+         <Link>/geo/info/download.html</Link>
       </Alternate>
       <Alternate id="GDSOverview">
          <Title>Overview</Title>
-         <Link>/geo/info/datasets<Title>html</Link>
+         <Link>/geo/info/datasets.html</Link>
       </Alternate>
       <Alternate id="GDSTutorials">
          <Title>Tutorial</Title>
-         <Link>/geo/info/qqtutorial<Title>html</Link>
+         <Link>/geo/info/qqtutorial.html</Link>
       </Alternate>
       <Alternate id="GDSFAQs">
          <Title>FAQs</Title>
-         <Link>/geo/info/faq<Title>html</Link>
+         <Link>/geo/info/faq.html</Link>
       </Alternate>
       <Alternate id="GDSPublications">
          <Title>Publications</Title>
@@ -1894,7 +1894,7 @@
       </Alternate>
       <Alternate id="GDSNews">
          <Title>News</Title>
-         <Link>/geo/info/geo_announce<Title>html</Link>
+         <Link>/geo/info/geo_announce.html</Link>
       </Alternate>
    </Resource>
    
@@ -1904,15 +1904,15 @@
       <Title>PopSet</Title>
       <Link>/popset</Link>
       <Description>
-         <p>Database of related DNA sequences that originate from comparative studies: phylogenetic, population, environmental and, to a lesser degree, mutational<Title> Each record in the database is a set of DNA sequences<Title> For example, a population set provides information on genetic variation within an organism, while a phylogenetic set may contain sequences, and their alignment, of a single gene obtained from several related organisms<Title></p>
+         <p>Database of related DNA sequences that originate from comparative studies: phylogenetic, population, environmental and, to a lesser degree, mutational. Each record in the database is a set of DNA sequences. For example, a population set provides information on genetic variation within an organism, while a phylogenetic set may contain sequences, and their alignment, of a single gene obtained from several related organisms.</p>
       </Description>
       <Alternate id="PopSetSubmission">
          <Title>Submission</Title>
-         <Link>/Sequin/index<Title>html</Link>
+         <Link>/Sequin/index.html</Link>
       </Alternate>
       <Alternate id="PopSetFTPSite">
          <Title>Download</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nih<Title>gov/genbank/</Link>
+         <Link>ftp://ftp.ncbi.nih.gov/genbank/</Link>
       </Alternate>
       <Alternate id="PopSetHelponBookshelf">
          <Title>Help</Title>
@@ -1936,15 +1936,15 @@
       <Title>Reference Sequence (RefSeq)</Title>
       <Link>/RefSeq/</Link>
       <Description>
-         <p>A collection of curated, non-redundant genomic DNA, transcript (RNA), and protein sequences produced by NCBI<Title> RefSeqs provide a stable reference for genome annotation, gene identification and characterization, mutation and polymorphism analysis, expression studies, and comparative analyses<Title> The RefSeq collection is accessed through the Nucleotide and Protein databases<Title></p>
+         <p>A collection of curated, non-redundant genomic DNA, transcript (RNA), and protein sequences produced by NCBI. RefSeqs provide a stable reference for genome annotation, gene identification and characterization, mutation and polymorphism analysis, expression studies, and comparative analyses. The RefSeq collection is accessed through the Nucleotide and Protein databases.</p>
       </Description>
       <Alternate id="RefSeqFTPSite">
          <Title>Download</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nih<Title>gov/refseq/</Link>
+         <Link>ftp://ftp.ncbi.nih.gov/refseq/</Link>
       </Alternate>
       <Alternate id="RefSeqOverview">
          <Title>Overview</Title>
-         <Link>/RefSeq/process<Title>html</Link>
+         <Link>/RefSeq/process.html</Link>
       </Alternate>
       <Alternate id="RefSeqFAQs">
          <Title>FAQs</Title>
@@ -1952,11 +1952,11 @@
       </Alternate>
       <Alternate id="RefSeqTutorials">
          <Title>Tutorials</Title>
-         <Link>/RefSeq/key<Title>html#query</Link>
+         <Link>/RefSeq/key.html#query</Link>
       </Alternate>
       <Alternate id="RefSeqStatistics">
          <Title>Statistics</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nih<Title>gov/refseq/release/release-statistics/</Link>
+         <Link>ftp://ftp.ncbi.nih.gov/refseq/release/release-statistics/</Link>
       </Alternate>
       <Alternate id="RefSeqNews">
          <Title>News</Title>
@@ -1964,7 +1964,7 @@
       </Alternate>
       <Alternate id="RefSeqPublications">
          <Title>Publications</Title>
-         <Link>/RefSeq/publications<Title>html</Link>
+         <Link>/RefSeq/publications.html</Link>
       </Alternate>
    </Resource>
    
@@ -1976,11 +1976,11 @@
       <Title>RefSeqGene (RSG)</Title>
       <Link>/refseq/rsg/</Link>
       <Description>
-         <p>RefSeqGene sequences are a collection of gene-specific reference genomic sequences from the NCBI RefSeq collection<Title> They form a stable foundation for reporting mutations, for establishing consistent intron and exon numbering conventions, and for defining the coordinates of other biologically significant variation<Title></p>
+         <p>RefSeqGene sequences are a collection of gene-specific reference genomic sequences from the NCBI RefSeq collection. They form a stable foundation for reporting mutations, for establishing consistent intron and exon numbering conventions, and for defining the coordinates of other biologically significant variation.</p>
       </Description>
       <Alternate id="RefSeqGeneFTPSite">
          <Title>Download</Title>
-         <Link>ftp://ftp<Title>ncbi<Title>nih<Title>gov/refseq/H_sapiens/RefSeqGene/</Link>
+         <Link>ftp://ftp.ncbi.nih.gov/refseq/H_sapiens/RefSeqGene/</Link>
       </Alternate>
       <Alternate id="RefSeqGeneOverview">
          <Title>Overview</Title>
@@ -1992,7 +1992,7 @@
       </Alternate>
       <Alternate id="RefSeqGeneBLAST">
          <Title>RSG BLAST</Title>
-         <Link>http://blast<Title>ncbi<Title>nlm<Title>nih<Title>gov/Blast<Title>cgi?PROGRAM=blastn&BLAST_PROGRAMS=megaBlast&PAGE_TYPE=BlastSearch&SHOW_DEFAULTS=on&BLAST_SPEC=RefseqGene</Link>
+         <Link>http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&amp;BLAST_PROGRAMS=megaBlast&amp;PAGE_TYPE=BlastSearch&amp;SHOW_DEFAULTS=on&amp;BLAST_SPEC=RefseqGene</Link>
       </Alternate>      
       <Alternate id="RefSeqNews">
          <Title>News</Title>
@@ -2005,9 +2005,9 @@
       <Keyword>Third Party Annotation</Keyword>
       <Keyword>Third Party Annotation Database</Keyword>
       <Title>Third Party Annotation (TPA) Database</Title>
-      <Link>/genbank/TPA<Title>html</Link>
+      <Link>/genbank/TPA.html</Link>
       <Description>
-         <p>A database that contains sequences built from the existing primary sequence data in GenBank<Title> The sequences and corresponding annotations are experimentally supported and have been published in a peer-reviewed scientific journal<Title> TPA records are retrieved through the Nucleotide Database<Title></p>
+         <p>A database that contains sequences built from the existing primary sequence data in GenBank. The sequences and corresponding annotations are experimentally supported and have been published in a peer-reviewed scientific journal. TPA records are retrieved through the Nucleotide Database.</p>
       </Description>
       <Alternate id="TPAinNuccore">
          <Title>Full DataSet</Title>
@@ -2015,7 +2015,7 @@
       </Alternate>
       <Alternate id="TPAFAQs">
          <Title>FAQs</Title>
-         <Link>/genbank/tpafaq<Title>html</Link>
+         <Link>/genbank/tpafaq.html</Link>
       </Alternate>
    </Resource>
 
