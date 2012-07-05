@@ -2,7 +2,7 @@
 
 import sys, os
 
-#sys.stderr = sys.stdout
+sys.stderr = sys.stdout
 #print "Content-type: text/plain"
 #print
 
@@ -13,13 +13,18 @@ execfile(venv, dict(__file__=venv))
 
 _project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+#print _project_dir
+
 # Add a custom Python path.
 sys.path.insert(0, _project_dir)
 sys.path.insert(0, '/home/welkere/python/info')
+#need to do this explicitly, since _project_dir is gonna be my staff directory,
+#because that's where the cgi is 'running'
+sys.path.insert(0, '/home/welkere/python')
 sys.path.insert(0, os.path.dirname(_project_dir))
 
 # Switch to the directory of your project. (Optional.)
-# os.chdir("/home/welkere/qatest")
+os.chdir("/home/welkere/python/info")
 
 # Set the DJANGO_SETTINGS_MODULE environment variable.
 os.environ['DJANGO_SETTINGS_MODULE'] = "info.settings"
