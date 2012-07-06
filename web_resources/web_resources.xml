@@ -123,7 +123,7 @@
          <Title>Tutorials</Title>
          <Link>/books/NBK45612/</Link>
       </Alternate>
-      <Alternate id="BioSystemsPublications">
+      <Alternate id="BooksPublications">
          <Title>Handbook Chapter</Title>
          <Link>/books/NBK21110/</Link>
       </Alternate>
@@ -637,7 +637,7 @@
          <Title>FAQs</Title>
          <Link>/geo/info/faq.html</Link>
       </Alternate>
-      <Alternate id="GEOPublications">
+      <Alternate id="GeoProfiles_GEOPublications">
          <Title>Publications</Title>
          <Link>/pmc/3013736,2686538,2270403,1669752,1619900,1619899,539976,99122</Link>
       </Alternate>
@@ -908,7 +908,7 @@
          <Title>FAQs</Title>
          <Link>http://omim.org/help/faq</Link>
       </Alternate>
-      <Alternate id="BioSystemsTutorials">
+      <Alternate id="OMIMBioSystemsTutorials">
          <Title>Tutorials</Title>
          <Link>/Structure/biosystems/docs/biosystems_how_to.html</Link>
       </Alternate>
@@ -952,6 +952,8 @@
       <Keyword>Primer</Keyword>
       <Keyword>Primers</Keyword>
       <Keyword>TaqMan</Keyword>
+      <Title>Probe</Title>
+      <Link>/probe</Link>
       <Description>
          <p>A public registry of nucleic acid reagents designed for use in a wide variety of biomedical research applications, together with information on reagent distributors, probe effectiveness, and computed sequence similarities.</p>
       </Description>
@@ -1032,7 +1034,7 @@
          <Title>GenPept Download</Title>
          <Link>ftp://ftp.ncbi.nih.gov/ncbi-asn1/protein_fasta</Link>
       </Alternate>
-      <Alternate id="RefSeqFTPSite">
+      <Alternate id="Protein_RefSeqFTPSite">
          <Title>RefSeq Download</Title>
          <Link>ftp://ftp.ncbi.nih.gov/refseq/</Link>
       </Alternate>
@@ -1367,7 +1369,7 @@
          <Title>RSG BLAST</Title>
          <Link>http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&amp;BLAST_PROGRAMS=megaBlast&amp;PAGE_TYPE=BlastSearch&amp;SHOW_DEFAULTS=on&amp;BLAST_SPEC=RefseqGene</Link>
       </Alternate>      
-      <Alternate id="RefSeqNews">
+      <Alternate id="RefSeqGeneNews">
          <Title>News</Title>
          <Link>/mailman/listinfo/refseq-announce</Link>
       </Alternate>
@@ -1773,251 +1775,6 @@
       </Alternate>      
    </Resource>
 
-   <Resource id="est">
-      <Keyword>Expressed Sequence Tag</Keyword>
-      <Keyword>Expressed Sequence Tags</Keyword>
-      <Keyword>dbEST</Keyword>
-      <Keyword>db EST</Keyword>
-      <Keyword>EST</Keyword>
-      <Keyword>ESTs</Keyword>
-      <Title>Database of Expressed Sequence Tags (dbEST)</Title>
-      <Link>/nucest</Link>
-      <Description>
-         <p>A divison of GenBank that contains short single-pass reads of cDNA (transcript) sequences. dbEST can be searched directly through the Nucleotide EST Database.</p>
-      </Description>
-      <Alternate id="ESTSubmissionPortal">
-         <Title>Submission</Title>
-         <Link>/dbEST/how_to_submit.html</Link>
-      </Alternate>
-      <Alternate id="ESTFTPSite">
-         <Title>Download</Title>
-         <Link>ftp://ftp.ncbi.nlm.nih.gov/genbank/</Link>
-      </Alternate>
-      <Alternate id="ESTHelponBookshelf">
-         <Title>Help</Title>
-         <Link>/books/NBK44864/</Link>
-      </Alternate>
-      <Alternate id="ESTTutorialsonBookshelf">
-         <Title>Tutorials</Title>
-         <Link>/books/NBK44863/</Link>
-      </Alternate>
-   </Resource>
-   
-   <Resource id="gss">
-      <Keyword>Genome Survey Sequence</Keyword>
-      <Keyword>Genome Survey Sequences</Keyword>
-      <Keyword>dbGSS</Keyword>
-      <Keyword>db GSS</Keyword>
-      <Keyword>GSS</Keyword>
-      <Keyword>GSSs</Keyword>
-      <Title>Database of Genome Survey Sequences (GSS)</Title>
-      <Link>/nucgss</Link>
-      <Description>
-         <p>A division of GenBank that contains short single-pass reads of genomic DNA. dbGSS can be searched directly through the Nucleotide GSS Database.</p>
-      </Description>
-      <Alternate id="GSSSubmissionPortal">
-         <Title>Submission</Title>
-         <Link>/dbGSS/how_to_submit.html</Link>
-      </Alternate>
-      <Alternate id="GSSFTPSite">
-         <Title>Download</Title>
-         <Link>ftp://ftp.ncbi.nlm.nih.gov/genbank/</Link>
-      </Alternate>
-      <Alternate id="GSSHelp">
-         <Title>Help</Title>
-         <Link>/books/NBK44864/</Link>
-      </Alternate>
-      <Alternate id="GSSTutorials">
-         <Title>Tutorials</Title>
-         <Link>/books/NBK44863/</Link>
-      </Alternate>
-   </Resource>
- 
-   <Resource id="genbank">
-      <Keyword>GenBank</Keyword>
-      <Title>GenBank</Title>
-      <Link>/genbank/</Link>
-      <Description>
-         <p>The NIH genetic sequence database, an annotated collection of all publicly available DNA sequences. GenBank is part of the International Nucleotide Sequence Database Collaboration, which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at NCBI. These three organizations exchange data on a daily basis. GenBank consists of several divisions, most of which can be accessed through the Nucleotide database. The exceptions are the EST and GSS divisions, which are accessed through the Nucleotide EST and Nucleotide GSS databases, respectively.</p>
-      </Description>
-      <Alternate id="GenBankSubmissionGuide">
-         <Title>Submission Guide</Title>
-         <Link>/books/NBK51157/</Link>
-      </Alternate>
-      <Alternate id="GenBankFTPSite">
-         <Title>Download</Title>
-         <Link>ftp://ftp.ncbi.nlm.nih.gov/genbank/</Link>
-      </Alternate>
-      <Alternate id="GenBankRecordFormatExample">
-         <Title>Example Record</Title>
-         <Link>/Sitemap/samplerecord.html</Link>
-      </Alternate>
-      <Alternate id="CurrentGenBankReleaseNotes">
-         <Title>Current Release Info</Title>
-         <Link>ftp://ftp.ncbi.nih.gov/genbank/gbrel.txt</Link>
-      </Alternate>
-      <Alternate id="GenBankPublication">
-         <Title>Publication</Title>
-         <Link>/pubmed/21071399</Link>
-      </Alternate>
-   </Resource>
-   
-   <Resource id="gds">
-      <Keyword>GEO Dataset</Keyword>
-      <Keyword>GEO Datasets</Keyword>
-      <Keyword>GDS</Keyword>
-      <Keyword>GDS ID</Keyword>
-      <Title>Gene Expression Omnibus (GEO) Datasets</Title>
-      <Link>/gds</Link>
-      <Description>
-         <p>Stores curated gene expression and molecular abundance DataSets assembled from the Gene Expression Omnibus (GEO) repository. DataSet records contain additional resources, including cluster tools and differential expression queries.</p>
-      </Description>
-      <Alternate id="GDSDownloadingInstructions">
-         <Title>Download Guide</Title>
-         <Link>/geo/info/download.html</Link>
-      </Alternate>
-      <Alternate id="GDSOverview">
-         <Title>Overview</Title>
-         <Link>/geo/info/datasets.html</Link>
-      </Alternate>
-      <Alternate id="GDSTutorials">
-         <Title>Tutorial</Title>
-         <Link>/geo/info/qqtutorial.html</Link>
-      </Alternate>
-      <Alternate id="GDSFAQs">
-         <Title>FAQs</Title>
-         <Link>/geo/info/faq.html</Link>
-      </Alternate>
-      <Alternate id="GDSPublications">
-         <Title>Publications</Title>
-         <Link>/pmc/3013736,2686538,2270403,1669752,1619900,1619899,539976,99122</Link>
-      </Alternate>
-      <Alternate id="GDSNews">
-         <Title>News</Title>
-         <Link>/geo/info/geo_announce.html</Link>
-      </Alternate>
-   </Resource>
-   
-   <Resource id="popset">
-      <Keyword>PopSet</Keyword>
-      <Keyword>PopSets</Keyword>
-      <Title>PopSet</Title>
-      <Link>/popset</Link>
-      <Description>
-         <p>Database of related DNA sequences that originate from comparative studies: phylogenetic, population, environmental and, to a lesser degree, mutational. Each record in the database is a set of DNA sequences. For example, a population set provides information on genetic variation within an organism, while a phylogenetic set may contain sequences, and their alignment, of a single gene obtained from several related organisms.</p>
-      </Description>
-      <Alternate id="PopSetSubmission">
-         <Title>Submission</Title>
-         <Link>/Sequin/index.html</Link>
-      </Alternate>
-      <Alternate id="PopSetFTPSite">
-         <Title>Download</Title>
-         <Link>ftp://ftp.ncbi.nih.gov/genbank/</Link>
-      </Alternate>
-      <Alternate id="PopSetHelponBookshelf">
-         <Title>Help</Title>
-         <Link>/books/NBK44864/</Link>
-      </Alternate>
-   </Resource>
-   
-   <Resource id="refseq">
-      <Keyword>RefSeq</Keyword>
-      <Keyword>Reference Sequence</Keyword>
-      <Keyword>Reference Sequences</Keyword>
-      <Keyword>NC</Keyword>
-      <Keyword>NT</Keyword>
-      <Keyword>NW</Keyword>
-      <Keyword>NR</Keyword>
-      <Keyword>NM</Keyword>
-      <Keyword>NP</Keyword>
-      <Keyword>XR</Keyword>
-      <Keyword>XM</Keyword>
-      <Keyword>XP</Keyword>
-      <Title>Reference Sequence (RefSeq)</Title>
-      <Link>/RefSeq/</Link>
-      <Description>
-         <p>A collection of curated, non-redundant genomic DNA, transcript (RNA), and protein sequences produced by NCBI. RefSeqs provide a stable reference for genome annotation, gene identification and characterization, mutation and polymorphism analysis, expression studies, and comparative analyses. The RefSeq collection is accessed through the Nucleotide and Protein databases.</p>
-      </Description>
-      <Alternate id="RefSeqFTPSite">
-         <Title>Download</Title>
-         <Link>ftp://ftp.ncbi.nih.gov/refseq/</Link>
-      </Alternate>
-      <Alternate id="RefSeqOverview">
-         <Title>Overview</Title>
-         <Link>/RefSeq/process.html</Link>
-      </Alternate>
-      <Alternate id="RefSeqFAQs">
-         <Title>FAQs</Title>
-         <Link>/books/NBK50680/</Link>
-      </Alternate>
-      <Alternate id="RefSeqTutorials">
-         <Title>Tutorials</Title>
-         <Link>/RefSeq/key.html#query</Link>
-      </Alternate>
-      <Alternate id="RefSeqStatistics">
-         <Title>Statistics</Title>
-         <Link>ftp://ftp.ncbi.nih.gov/refseq/release/release-statistics/</Link>
-      </Alternate>
-      <Alternate id="RefSeqNews">
-         <Title>News</Title>
-         <Link>/mailman/listinfo/refseq-announce</Link>
-      </Alternate>
-      <Alternate id="RefSeqPublications">
-         <Title>Publications</Title>
-         <Link>/RefSeq/publications.html</Link>
-      </Alternate>
-   </Resource>
-   
-   <Resource id="refseqgene">
-      <Keyword>RefSeqGene</Keyword>
-      <Keyword>RSG</Keyword>
-      <Keyword>Locus Reference Genomic</Keyword>
-      <Keyword>LRG</Keyword>
-      <Title>RefSeqGene (RSG)</Title>
-      <Link>/refseq/rsg/</Link>
-      <Description>
-         <p>RefSeqGene sequences are a collection of gene-specific reference genomic sequences from the NCBI RefSeq collection. They form a stable foundation for reporting mutations, for establishing consistent intron and exon numbering conventions, and for defining the coordinates of other biologically significant variation.</p>
-      </Description>
-      <Alternate id="RefSeqGeneFTPSite">
-         <Title>Download</Title>
-         <Link>ftp://ftp.ncbi.nih.gov/refseq/H_sapiens/RefSeqGene/</Link>
-      </Alternate>
-      <Alternate id="RefSeqGeneOverview">
-         <Title>Overview</Title>
-         <Link>/refseq/rsg/about/</Link>
-      </Alternate>
-      <Alternate id="RefSeqGeneBrowser">
-         <Title>Browser Table</Title>
-         <Link>/refseq/rsg/browse/</Link>
-      </Alternate>
-      <Alternate id="RefSeqGeneBLAST">
-         <Title>RSG BLAST</Title>
-         <Link>http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&amp;BLAST_PROGRAMS=megaBlast&amp;PAGE_TYPE=BlastSearch&amp;SHOW_DEFAULTS=on&amp;BLAST_SPEC=RefseqGene</Link>
-      </Alternate>      
-      <Alternate id="RefSeqNews">
-         <Title>News</Title>
-         <Link>/mailman/listinfo/refseq-announce</Link>
-      </Alternate>
-   </Resource>
-   
-   <Resource id="tpa">
-      <Keyword>TPA</Keyword>
-      <Keyword>Third Party Annotation</Keyword>
-      <Keyword>Third Party Annotation Database</Keyword>
-      <Title>Third Party Annotation (TPA) Database</Title>
-      <Link>/genbank/TPA.html</Link>
-      <Description>
-         <p>A database that contains sequences built from the existing primary sequence data in GenBank. The sequences and corresponding annotations are experimentally supported and have been published in a peer-reviewed scientific journal. TPA records are retrieved through the Nucleotide Database.</p>
-      </Description>
-      <Alternate id="TPAinNuccore">
-         <Title>Full DataSet</Title>
-         <Link>/nuccore?term=srcdb%2Btpa%2Bddbj%2Fembl%2Fgenbank[Properties]</Link>
-      </Alternate>
-      <Alternate id="TPAFAQs">
-         <Title>FAQs</Title>
-         <Link>/genbank/tpafaq.html</Link>
-      </Alternate>
-   </Resource>
 
    <Resource id="blast">
       <Keyword>BLAST</Keyword>
@@ -2206,7 +1963,7 @@
       <Link>/sutils/genom_table.cgi</Link>
       <Description><p>Performs a BLAST search for similar sequences from selected complete eukaryotic and prokaryotic genomes.</p>
       </Description>
-      <Alternate id="BLASTOverview">
+      <Alternate id="MicrobialBLASTOverview">
          <Title>Overview</Title>
          <Link>/books/NBK21097/</Link>
       </Alternate>
@@ -2214,7 +1971,7 @@
          <Title>Help</Title>
          <Link>/sutils/static/prokblasthelp.html</Link>
       </Alternate>
-      <Alternate id="BLASTPublications">
+      <Alternate id="MicrobialBLASTPublications">
          <Title>Publication</Title>
          <Link>v/pubmed/12435493?dopt=Abstract</Link>
       </Alternate>
@@ -2246,19 +2003,19 @@
       <Link>/mapview/</Link>
       <Description><p>Clicking on the "B" link in this genomes page takes you to a specific organism's genome BLAST tool which will enable the comparison of nucleotide or protein sequences with genomic sequence databases. In addition BLAST hits can be shown on chromosomal assembly, when available, using the MapViewer tool.</p>
       </Description>
-      <Alternate id="BLASTOverview">
+      <Alternate id="GenomeBLASTOverview">
          <Title>Overview</Title>
          <Link>/books/NBK21097/</Link>
       </Alternate>
-      <Alternate id="BLASTHelp">
+      <Alternate id="GenomeBLASTHelp">
          <Title>Help</Title>
          <Link>http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&amp;PAGE_TYPE=BlastDocs</Link>
       </Alternate>
-      <Alternate id="BLASTFAQs">
+      <Alternate id="GenomeBLASTFAQs">
          <Title>FAQs</Title>
          <Link>http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&amp;PAGE_TYPE=BlastDocs&amp;DOC_TYPE=FAQ</Link>
       </Alternate>
-      <Alternate id="BLASTTutorials">
+      <Alternate id="GenomeBLASTTutorials">
          <Title>Tutorials</Title>
          <Link>http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&amp;PAGE_TYPE=BlastTips</Link>
       </Alternate>
@@ -2840,11 +2597,11 @@
       <Link>/WebSub/index.cgi?tool=barcode</Link>
       <Description><p>A submission guide for the GenBank database of Barcode short nucleotide sequences from a standard genetic locus for use in species identification.</p>
       </Description>
-      <Alternate id="BankIt_GenBankSubmissionGuide">
+      <Alternate id="Barcode_BankIt_GenBankSubmissionGuide">
          <Title>GenBank Submission Guide</Title>
          <Link>/books/NBK51157/</Link>
       </Alternate>
-      <Alternate id="BankIt_SubmissionGuide">
+      <Alternate id="Barcode_BankIt_SubmissionGuide">
          <Title>BankIt Guide</Title>
          <Link>/WebSub/html/requirements.html</Link>
       </Alternate>
@@ -3368,7 +3125,7 @@
          <Title>Submission Overview</Title>
          <Link>http://publicaccess.nih.gov/submit_process.htm</Link>
       </Alternate>
-      <Alternate id="BioProject_SubmitterLogin">
+      <Alternate id="NIHMS_BioProject_SubmitterLogin">
          <Title>Submitter Login</Title>
          <Link>http://www.nihms.nih.gov/db/sub.cgi</Link>
       </Alternate>
@@ -4117,7 +3874,7 @@
       </Description>
       <Alternate id="ePCR_RelatedResource">
          <Title>UniSTS Database</Title>
-         <Link></Link>
+         <Link>/unists/</Link>
       </Alternate>
       <Alternate id="ePCR_Download">
          <Title>Download</Title>
@@ -4548,44 +4305,13 @@
       </Alternate>
    </Resource>
 
-   <Resource id="retrovirusresources">
-      <Keyword>Retrovirus Resources</Keyword>
-      <Keyword>Retrovirus Resource</Keyword>
-      <Keyword>Retroviral Resources</Keyword>
-      <Keyword>Retroviral Resource</Keyword>
-      <Keyword>Viral Genotyping Tool</Keyword>
-      <Keyword>Viral Genotyping</Keyword>
-      <Keyword>PASC</Keyword>
-      <Keyword>Pairwise Sequence Comparison Tool</Keyword>      
-      <Keyword>Retrovirus Genome Browser</Keyword>    
-      <Title>Retrovirus Resources</Title>
-      <Link>/retroviruses/</Link>
-      <Description><p>A collection of resources specifically designed to support the research of retroviruses, including a genotyping tool that uses the BLAST algorithm to identify the genotype of a query sequence; an alignment tool for global alignment of multiple sequences; an HIV-1 automatic sequence annotation tool; and annotated maps of numerous retroviruses viewable in GenBank, FASTA, and graphic formats, with links to associated sequence records.</p>
-      </Description>
-      <Alternate id="RetroVirResources_RetroviralTaxBrowser">
-         <Title>Taxonomy Browser</Title>
-         <Link>/retroviruses/retrovirus_browser.html</Link>
-      </Alternate>
-      <Alternate id="RetroVirResources_GenotypingTool">
-         <Title>Genotyping Tool</Title>
-         <Link>/projects/genotyping/formpage.cgi</Link>
-      </Alternate>
-      <Alternate id="RetroVirResources_PASC">
-         <Title>PASC Tool</Title>
-         <Link>/sutils/pasc/viridty.cgi?textpage=overview</Link>
-      </Alternate>
-      <Alternate id="RetroVirResources_Publication">
-         <Title>Retrovirus Textbook</Title>
-         <Link>/books/NBK19376/</Link>
-      </Alternate>
-   </Resource>
 
    <Resource id="rssfeeds">
       <Keyword>RSS Feeds</Keyword>
       <Keyword>RSS Feed</Keyword>
       <Title>RSS Feeds</Title>
       <Link>/feed/</Link>
-      <Description><p>Subscribe to Web/RSS feeds for updates about NCBI resources.</p>
+      <Description><p>Subscribe to RSS feeds for updates about NCBI resources.</p>
       </Description>
       <Alternate id="RSSFeeds_NCBIAnnounce">
          <Title>NCBI Announcements</Title>
