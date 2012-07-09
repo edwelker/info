@@ -11,6 +11,9 @@ class CommonResource(models.Model):
     class Meta:
         abstract = True
 
+    def __unicode__(self):
+        return u'%s' % (self.title)
+
 class Resource(CommonResource): 
     pass
 
@@ -18,5 +21,9 @@ class Keyword(models.Model):
     word = models.CharField(max_length=100)
     resource = models.ForeignKey(Resource)
 
+    def __unicode__(self):
+        return u'%s' % (self.word)
+
 class SubResource(Resource):
+#    pass
     parent = models.ForeignKey(Resource, related_name="child")

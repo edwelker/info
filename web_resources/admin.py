@@ -14,7 +14,7 @@ class SubResourceInline(admin.StackedInline):
     extra = 1
     can_delete = False
     ordering = ('title',)
-
+    fk_name = 'parent'
 
 class ResourceAdmin(admin.ModelAdmin):
     list_display = ('title', 'id', 'href',)
@@ -24,20 +24,20 @@ class ResourceAdmin(admin.ModelAdmin):
         (None, {'fields': ['id', 'title', 'href']}),
     ]
 
-    inlines = [KeywordInline]
+    inlines = [KeywordInline, SubResourceInline]
 
 
 
 admin.site.register(Resource, ResourceAdmin)
 
-#class KeywordAdmin(admin.ModelAdmin):
-#    list_display = ('word',)
-#    search_fields = ('word',)
+class KeywordAdmin(admin.ModelAdmin):
+    list_display = ('word',)
+    search_fields = ('word',)
 
-#admin.site.register(Keyword, KeywordAdmin)
+admin.site.register(Keyword, KeywordAdmin)
 
-#class SubResourceAdmin(admin.ModelAdmin):
-#    list_display = ('id', 'title', 'href',)
-#    search_fields = ('title', 'id', 'href',)
+class SubResourceAdmin(admin.ModelAdmin):
+    list_display = ('id', 'title', 'href',)
+    search_fields = ('title', 'id', 'href',)
 
-#admin.site.register(SubResource, SubResourceAdmin)
+admin.site.register(SubResource, SubResourceAdmin)
