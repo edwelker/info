@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>NCBI web resources</title>
+    </head>
+    <body>
+        <h1>NCBI Web resources</h1>
+
+        <p>Nothing on the homepage for now, maybe you're looking for... </p>
+
+        <ul>
+            <li><a href="resources/all">The list of all resources</a></li>
+            {% for res in resources %}
+            <li><a href="resources/{{res.id}}">{{res.title}} resource</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
