@@ -1,4 +1,4 @@
-from web_resources.models import Resource, Keyword, SubResource
+from web_resources.models import Resource, Keyword, SubResource, Category
 from django.contrib import admin
 
 
@@ -41,3 +41,9 @@ class SubResourceAdmin(admin.ModelAdmin):
     search_fields = ('title', 'id', 'href',)
 
 admin.site.register(SubResource, SubResourceAdmin)
+
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = ('display_name', 'id')
+    search_fields = ('display_name', 'id')
+
+admin.site.register(Category, CategoryAdmin)

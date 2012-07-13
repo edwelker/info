@@ -27,3 +27,10 @@ class Keyword(models.Model):
 class SubResource(Resource):
 #    pass
     parent = models.ForeignKey(Resource, related_name="child")
+
+class Category(models.Model):
+    id = models.CharField(max_length=30, unique=True, primary_key=True)
+    display_name = models.CharField(max_length=50, unique=True)
+
+    class Meta:
+        verbose_name_plural = 'Categories'
