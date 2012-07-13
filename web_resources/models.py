@@ -25,7 +25,6 @@ class Keyword(models.Model):
         return u'%s' % (self.word)
 
 class SubResource(Resource):
-#    pass
     parent = models.ForeignKey(Resource, related_name="child")
 
 class Category(models.Model):

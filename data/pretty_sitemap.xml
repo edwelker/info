@@ -705,7 +705,7 @@ This interactive tool allows users to build E-utility URLs, either from a form o
         <category>Literature</category>
         <category>Proteins</category>
       </categories>
-      <url>/books/NBK25501/ </url>
+      <url>/books/NBK25501/</url>
       <shortDesc>
         <p>
 URL application programming interface for searching, linking and downloading data within NCBI's Entrez system</p>
@@ -2470,7 +2470,7 @@ The PMC Open-Access Subset is a relatively small part of the total collection of
         <category>Literature</category>
         <primary-category>Literature</primary-category>
       </categories>
-      <url>/pubmed/clinical </url>
+      <url>/pubmed/clinical</url>
       <shortDesc>
         <p>
 Directory of PubMed queries about clinical topics</p>
