@@ -77,5 +77,11 @@
             <xsl:value-of select="p"/>
         </longdesc>
     </xsl:template>
+    
+    <xsl:template match="Description">
+        <Description>
+            <xsl:value-of select="p"/>
+        </Description>
+    </xsl:template>
 
 </xsl:stylesheet>
