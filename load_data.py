@@ -2,29 +2,47 @@ import os
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'info.settings'
 
-from web_resources.models import Resource, Keyword
+from web_resources.models import PrimaryResource, Resource, Keyword, Category
 from lxml import etree
 
 parser = etree.XMLParser(ns_clean=True, recover=True)
-xml = etree.parse('web_resources/web_resources.xml', parser)
+xml = etree.parse('data/sitemap_and_resources.xml', parser)
 
 for el in xml.getroot():
     id = el.get('id')
     
     keywords = []
     subresources = []
+    categories = []
 
     for child in el:
 
         if child.tag == 'Title':
             title = child.text.encode("utf8")
         if child.tag == 'Description':
-            for p in child.iter('p'):
-                desc = p.text.encode("utf8")
+            desc = child.text.encode("utf8").strip()
         if child.tag == 'Link':
             link = child.text.encode("utf8")
         if child.tag == 'Keyword':
             keywords.append( child.text )
+        if child.tag == 'shortdesc':
+            if child.text:    
+                shortdesc = child.text.encode('utf8').strip()
+            else:
+                shortdesc = ''
+        if child.tag == 'longdesc':
+            if child.text:
+                longdesc = child.text.encode('utf8').strip()
+            else:
+                longdesc = ''
+
+        if child.tag == 'categories':
+            for element in child:
+                if element.tag == 'primary-category':
+                    primcat = element.text.encode('utf8')
+                if element.tag == 'category':
+                    categories.append( element.text.encode('utf8'))
+
         if child.tag == 'Alternate':
             alt = {}
             alt['id'] = child.get('id')
@@ -41,7 +59,11 @@ for el in xml.getroot():
     #print "Loading... %s" % title
 
     try:
-        resource = Resource.objects.create(id=id, title=title, href=link, desc=desc)
+        pcat = Category.objects.get(display_name = primcat )
+        resource = PrimaryResource.objects.create(id=id, name=title, url=link, desc=desc, 
+                                                  shortdesc=shortdesc,longdesc=longdesc,
+                                                  primary_category=pcat
+                                                 )
     except Exception, err:
         #print "Resource error: %s, \n%s from id: %s" % (err, link, id)
         #print err
@@ -52,10 +74,17 @@ for el in xml.getroot():
     for keyword in keywords:
         k = resource.keyword_set.create(word = keyword)
 
+    try:
+        for cat in categories:
+            #add the m2m relationship
+            c = Category.objects.get(display_name = cat)
+            resource.categories.add( c )
+    except Exception, err:
+        print "Category Error: %s" % err
 
     try: 
         for sub in subresources:
-            s = resource.child.get_or_create(href=sub['link'], defaults={'title' : sub['title'], 'id' : sub['id'] })
+            s = resource.subresources.get_or_create(url=sub['link'], defaults={'name' : sub['title'], 'id' : sub['id'] })
     except Exception, err:
         #print err
         print "SubResource error: %s, \n%s\n from id: %s" % (err, sub['link'], sub['id'])

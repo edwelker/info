@@ -2,8 +2,8 @@
 <Resources>
     {% for res in resources %}
         <Resource id="{{res.id}}">
-            <title>{{res.title}}</title>
-            <url>{{res.href}}</url>
+            <title>{{res.name}}</title>
+            <url>{{res.url}}</url>
             <desc>{{res.desc}}</desc>
             <keywords>
                 {% for key in res.keyword_set.all %}
