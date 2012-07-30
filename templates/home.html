@@ -1,17 +1,28 @@
 <html>
     <head>
         <title>NCBI web resources</title>
+
+        <link rel="stylesheet" href="/portal/portal3rc.fcgi/standards/css/standard_base_css/standard_grid_css.css"/>
+        <style> 
+            .content{padding-left:1em}
+        </style>
     </head>
     <body>
-        <h1>NCBI Web resources</h1>
+    <div class="grid">
+        <div class="content col twelve_col last shadow">
+            <h1>NCBI Web resources</h1>
 
-        <p>Nothing on the homepage for now, maybe you're looking for... </p>
-
-        <ul>
-            <li><a href="resources/all">The list of all resources</a></li>
-            {% for res in resources %}
-            <li><a href="resources/{{res.id}}">{{res.name}} resource</a></li>
-            {% endfor %}
-        </ul>
+            <p>Nothing on the homepage for now, maybe you're looking for... </p>
+            
+            <a href="resources/all">The XML list of all {{resources.count}} Primary resources</a>
+            
+            <h2>Primary Resources</h2>
+            <ul>
+                {% for res in resources %}
+                <li><a href="resources/{{res.id}}">{{res.name}} resource</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
     </body>
 </html>

@@ -3,7 +3,7 @@ from django.shortcuts import render_to_response
 from models import PrimaryResource
 
 def home(request):  
-    return render_to_response('home.html', {'resources': PrimaryResource.objects.all()})
+    return render_to_response('home.html', {'resources': PrimaryResource.objects.order_by('name')})
 
 def all(request):
     return render_to_response('resources.xml', {'resources': PrimaryResource.objects.all()}, mimetype='text/xml')

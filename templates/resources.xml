@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Resources>
     {% for res in resources %}
-        <Resource id="{{res.id}}">
-            <title>{{res.name}}</title>
+        <Resource id="{{res.id}}" primary-category="{{res.primary_category.id}}">
+            <name>{{res.name}}</name>
             <url>{{res.url}}</url>
             <desc>{{res.desc}}</desc>
+            <shortdesc>{{res.shortdesc}}</shortdesc>
+            <longdesc>{{res.longdesc}}</longdesc>
             <keywords>
                 {% for key in res.keyword_set.all %}
                     <keyword>{{key}}</keyword>
                 {% endfor %}
             </keywords>
             <subresources>
-            {{sr}}
-                {% for sr in res.child.all %}
+                {% for sr in res.subresources.all %}
                     <subresource id="{{sr.id}}">
-                        <title>{{sr.title}}</title>
-                        <url>{{sr.href}}</url>
-                        <desc>{{sr.desc}}</desc>
+                        <title>{{sr.name}}</title>
+                        <url>{{sr.url}}</url>
                     </subresource>
                 {% endfor %}
             </subresources>
+            <categories>
+                {% for cat in res.categories.all %}
+                    <category>{{cat.id}}</category>
+                {% endfor %}
+            </categories>
         </Resource>
     {% endfor %}
 </Resources>
