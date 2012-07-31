@@ -66,16 +66,8 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="shortDesc">
-        <shortdesc>
-            <xsl:value-of select="p"/>
-        </shortdesc>
-    </xsl:template>
-    
-    <xsl:template match="longDesc">
-        <longdesc>
-            <xsl:value-of select="p"/>
-        </longdesc>
+    <xsl:template match="shortDesc/p|longDesc/p">
+        <xsl:copy-of select="node()"/>
     </xsl:template>
     
     <xsl:template match="Description">

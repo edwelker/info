@@ -1,0 +1,3207 @@
+<?xml version="1.0" encoding="utf-8"?><resources><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>1000 Genomes Browser</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+                <category>Variation</category>
+            </categories>
+            <url>/variation/tools/1000genomes/</url>
+            <shortDesc>
+                 Interactive graphical display of 1000 Genomes Project Data
+            </shortDesc>
+            <longDesc>
+                 An interactive graphical viewer that allows users to explore variant calls,
+                    genotype calls and supporting evidence (such as aligned sequence reads) that
+                    have been produced by the <a href="http://www.1000genomes.org/">1000 Genomes
+                        Project</a>.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Amino Acid Explorer</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/Class/Structure/aa/aa_explorer.cgi</url>
+            <shortDesc>
+                 Interactive tool about amino acids and their properties and functions
+            </shortDesc>
+            <longDesc>
+                 This tool allows users to explore the characteristics of amino acids by
+                    comparing their structural and chemical properties, predicting protein sequence
+                    changes caused by mutations, viewing common substitutions, and browsing the
+                    functions of given residues in conserved domains.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>ASN.1 Format Summary</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+            </categories>
+            <url>/Sitemap/Summary/asn1.html</url>
+            <shortDesc>
+                 Specifications of the ASN.1 data format used by NCBI
+            </shortDesc>
+            <longDesc>
+                 An International Standards Organization (ISO) data representation format used to
+                    achieve interoperability between platforms. For data specifications and
+                    conversion tools, see NCBI Data Specification below.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Assembly Archive</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/Traces/assembly/assmbrowser.cgi</url>
+            <shortDesc>
+                 Displays submitted assemblies of trace sequences
+            </shortDesc>
+            <longDesc>
+                 Links the raw sequence information found in the Trace Archive with assembly
+                    information found in publicly available sequence repositories
+                    (GenBank/EMBL/DDBJ). The Assembly Viewer allows a user to see the multiple
+                    sequence alignments as well as the actual sequence chromatogram.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Basic Local Alignment Search Tool (BLAST)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Homology</category>
+                <category>Proteins</category>
+                <primary-category>Sequence Analysis</primary-category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>http://blast.ncbi.nlm.nih.gov</url>
+            <shortDesc>
+                 Tool for finding local regions of sequence similarity
+            </shortDesc>
+            <longDesc>
+                 Finds regions of local similarity between biological sequences. The program
+                    compares nucleotide or protein sequences to sequence databases and calculates
+                    the statistical significance of matches. BLAST can be used to infer functional
+                    and evolutionary relationships between sequences as well as to help identify
+                    members of gene families.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Batch Entrez</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Proteins</category>
+            </categories>
+            <url>/sites/batchentrez</url>
+            <shortDesc>
+                 Retrieve sequence records from a file of identifiers.
+            </shortDesc>
+            <longDesc>
+                 Allows you to retrieve records from many Entrez databases by uploading a file of
+                    GI or accession numbers from the Nucleotide or Protein databases, or a file of
+                    unique identifiers from other Entrez databases. Search results can be saved in
+                    various formats directly to a local file on your computer.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>BioAssay Services</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+            </categories>
+            <url>http://pubchem.ncbi.nlm.nih.gov/assay/assay.cgi</url>
+            <shortDesc>
+                 Tools for summarizing bioactivities and structure-activity relationships
+            </shortDesc>
+            <longDesc>
+                 Tools that summarize the biological test results in the PubChem database and
+                    provide alternative ways to view bioassay results and structure-activity
+                    relationships. Users also can download their analyses and data tables.
+            </longDesc>
+        </resource><resource featured="true" dbname="bioproject">
+            <resource-type>Databases</resource-type>
+            <title>BioProject (formerly Genome Project)</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+                <category>Genomes &amp; Maps</category>
+                <category>Proteins</category>
+                <category>Variation</category>
+            </categories>
+            <url>/bioproject</url>
+            <shortDesc>
+                 Genomics, functional genomics, and genetics studies &amp; links to corresponding
+                    data
+            </shortDesc>
+            <longDesc>
+                 A collection of genomics, functional genomics, and genetics studies and links to
+                    their resulting datasets. This resource describes project scope, material, and
+                    objectives and provides a mechanism to retrieve datasets that are often
+                    difficult to find due to inconsistent annotation, multiple independent
+                    submissions, and the varied nature of diverse data types which are often stored
+                    in different databases.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>BioProject Submission</title>
+            <categories>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Proteins</category>
+                <category>Variation</category>
+            </categories>
+            <url>https://submit.ncbi.nlm.nih.gov/subs/bioproject/</url>
+            <shortDesc>
+                 Register BioProject studies
+            </shortDesc>
+            <longDesc>
+                 An online form that provides an interface for researchers, consortia and
+                    organizations to register their BioProjects. This serves as the starting point
+                    for the submission of genomic and genetic data for the study. The data does not
+                    need to be submitted at the time of BioProject registration.
+            </longDesc>
+        </resource><resource dbname="biosample">
+            <resource-type>Databases</resource-type>
+            <title>BioSample</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+            </categories>
+            <url>/biosample</url>
+            <shortDesc>
+                 Biosamples - source materials used in experimental assays.
+            </shortDesc>
+            <longDesc>
+                 The BioSample database contains descriptions of biological source materials used
+                    in experimental assays.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>BioSystems</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <category>Domains &amp; Structures</category>
+                <category>Genes &amp; Expression</category>
+                <category>Proteins</category>
+                <primary-category>Proteins</primary-category>
+            </categories>
+            <url>/biosystems/</url>
+            <shortDesc>
+                 Database that groups biomedical literature, small molecules, and sequence data
+                    in terms of biological relationships.
+            </shortDesc>
+            <longDesc>
+                 Database that groups biomedical literature, small molecules, and sequence data
+                    in terms of biological relationships.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>BLAST (Stand-alone)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Homology</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&amp;PAGE_TYPE=BlastDocs&amp;DOC_TYPE=Download</url>
+            <shortDesc>
+                 BLAST programs for a local computer
+            </shortDesc>
+            <longDesc>
+                 BLAST executables for local use are provided for Solaris, LINUX, Windows, and
+                    MacOSX systems. See the README file in the ftp directory for more information.
+                    Pre-formatted databases for BLAST nucleotide, protein, and translated searches
+                    also are available for downloading under the db subdirectory.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>BLAST Link (BLink)</title>
+            <categories>
+                <category>Homology</category>
+                <category>Proteins</category>
+                <primary-category>Proteins</primary-category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/sutils/blink.cgi?mode=query</url>
+            <shortDesc>
+                 Pre-computed reports showing proteins with similar sequences
+            </shortDesc>
+            <longDesc>
+                 A link option on protein records that displays the results of a pre-computed
+                    BLAST search of that protein against all other protein sequences at NCBI.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>BLAST Microbial Genomes</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&amp;PROG_DEF=blastn&amp;BLAST_PROG_DEF=megaBlast&amp;SHOW_DEFAULTS=on&amp;BLAST_SPEC=MicrobialGenomes</url>
+            <shortDesc>
+                 Finds similar sequences within microbial genomes
+            </shortDesc>
+            <longDesc>
+                 Performs a BLAST search for similar sequences from selected complete eukaryotic
+                    and prokaryotic genomes.
+            </longDesc>
+        </resource><resource dbname="refseqgene">
+            <resource-type>Tools</resource-type>
+            <title>BLAST RefSeqGene</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Genes &amp; Expression</category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&amp;BLAST_PROGRAMS=megaBlast&amp;PAGE_TYPE=BlastSearch&amp;SHOW_DEFAULTS=on&amp;BLAST_SPEC=RefseqGene</url>
+            <shortDesc>Finds similar sequences within the RefSeqGene/LRG dataset.</shortDesc>
+            <longDesc>
+                 Performs a BLAST search of the genomic sequences in the <a href="http://www.ncbi.nlm.nih.gov/refseq/rsg/">RefSeqGene</a>/LRG set. The
+                    default display provides ready navigation to review alignments in the Graphics
+                    display.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>BLAST Tutorials and Guides</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&amp;PAGE_TYPE=BlastDocs</url>
+            <shortDesc>
+                 Variety of documents describing NCBI BLAST services
+            </shortDesc>
+            <longDesc>
+                 This page links to a number of BLAST-related tutorials and guides, including a
+                    selection guide for BLAST algorithms, descriptions of BLAST output formats,
+                    explanations of the parameters for stand-alone BLAST, directions for setting up
+                    stand-alone BLAST on local machines and using the BLAST URL API.
+            </longDesc>
+        </resource><resource featured="true" dbname="books">
+            <resource-type>Databases</resource-type>
+            <title>Bookshelf</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Literature</primary-category>
+                <category>Literature</category>
+            </categories>
+            <url>/books</url>
+            <shortDesc>
+                 Online books and reports
+            </shortDesc>
+            <longDesc>
+                 A collection of biomedical books that can be searched directly or from linked
+                    data in other NCBI databases. The collection includes biomedical textbooks,
+                    other scientific titles, genetic resources such as <em>GeneReviews</em>, and
+                    NCBI help manuals.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>CDTree</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Domains &amp; Structures</category>
+            </categories>
+            <url>/Structure/cdtree/cdtree.shtml</url>
+            <shortDesc>
+                 Program for viewing, updating and creating protein domains and hierarchies
+            </shortDesc>
+            <longDesc>
+                 A stand-alone application for classifying protein sequences and investigating
+                    their evolutionary relationships. CDTree can import, analyze and update existing
+                    Conserved Domain (CDD) records and hierarchies, and also allows users to create
+                    their own. CDTree is tightly integrated with Entrez CDD and Cn3D, and allows
+                    users to create and update protein domain alignments.
+            </longDesc>
+        </resource><resource dbname="clinvar">
+            <resource-type>Databases</resource-type>
+            <title>ClinVar</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Variation</category>
+            </categories>
+            <url>/clinvar</url>
+            <shortDesc>
+                 ClinVar aggregates information about sequence variation and its relationship to
+                    human health.
+            </shortDesc>
+            <longDesc>
+                 A resource under development to provide a public, tracked record of reported
+                    relationships among human variation and observed health status. ClinVar has a
+                    projected launch date for late 2011. 
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>CloneDB (formerly Clone Registry)</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/clone</url>
+            <shortDesc>
+                 Information about genomic clones and libraries.
+            </shortDesc>
+            <longDesc>
+                 A database that integrates information about clones and libraries, including
+                    sequence data, map positions and distributor information.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Cn3D</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Domains &amp; Structures</category>
+                <category>Proteins</category>
+            </categories>
+            <url>/Structure/CN3D/cn3d.shtml</url>
+            <shortDesc>
+                 Program for viewing 3D structures and alignments
+            </shortDesc>
+            <longDesc>
+                 A stand-alone application for viewing 3-dimensional structures from NCBI's
+                    Entrez retrieval service. Cn3D runs on Windows, Macintosh, and UNIX and can be
+                    configured to receive data from most popular web browsers. Cn3D simultaneously
+                    displays structure, sequence, and alignment, and has powerful annotation and
+                    alignment editing features.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>COBALT</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Homology</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/tools/cobalt</url>
+            <shortDesc>
+                 Protein multiple sequence alignment tool
+            </shortDesc>
+            <longDesc>
+                 COBALT is a protein multiple sequence alignment tool that finds a collection of
+                    pairwise constraints derived from conserved domain database, protein motif
+                    database, and sequence similarity, using RPS-BLAST, BLASTP, and PHI-BLAST.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Coffee Break</title>
+            <categories>
+                <category>Literature</category>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/books/NBK2345</url>
+            <shortDesc>
+                 Short reports on recent biological discoveries that demonstrate use of NCBI
+                    tools
+            </shortDesc>
+            <longDesc>
+                 Part of the NCBI Bookshelf, Coffee Break combines reports on recent biomedical
+                    discoveries with use of NCBI tools. Each report incorporates interactive
+                    tutorials that show how NCBI bioinformatics tools are used as a part of the
+                    research process.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Computational Resources from NCBI's Structure Group </title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <category>Domains &amp; Structures</category>
+                <primary-category>Domains &amp; Structures</primary-category>
+            </categories>
+            <url>/Structure/</url>
+            <shortDesc>
+                 Computational Resources from NCBI's Structure Group
+            </shortDesc>
+            <longDesc>
+                 A centralized page providing access and links to resources developed by the
+                    Structure Group of the NCBI Computational Biology Branch (CBB). These resources
+                    cover databases and tools to help in the study of macromolecular structures,
+                    conserved domains and protein classification, small molecules and their
+                    biological activity, and biological pathways and systems.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Concise Microbial Protein BLAST</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Homology</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/genomes/prokhits.cgi</url>
+            <shortDesc>
+                 BLAST against the Protein Clusters database
+            </shortDesc>
+            <longDesc>
+                 A specialized BLAST service in which the queried database consists of all
+                    proteins from complete microbial (prokaryotic) genomes. NCBI has precalculated
+                    clusters of similar proteins at the genus-level and one representative is chosen
+                    from each cluster in order to reduce the dataset, thereby reducing search time
+                    and providing a broader taxonomic view.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Consensus CDS (CCDS)</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/projects/CCDS/CcdsBrowse.cgi</url>
+            <shortDesc>
+                 Collaborative effort to provide standard annotations for human and mouse
+                    genes
+            </shortDesc>
+            <longDesc>
+                 A collaborative effort to identify a core set of human and mouse protein coding
+                    regions that are consistently annotated and of high quality.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Conserved Domain Architecture Retrieval Tool (CDART)</title>
+            <categories>
+                <category>Domains &amp; Structures</category>
+                <primary-category>Domains &amp; Structures</primary-category>
+            </categories>
+            <url>/Structure/lexington/lexington.cgi?cmd=rps</url>
+            <shortDesc>
+                 Tool that displays and retrieves proteins according to their domain
+                    architecture
+            </shortDesc>
+            <longDesc>
+                 Displays the functional domains that make up a given protein sequence. It lists
+                    proteins with similar domain architectures and can retrieve proteins that
+                    contain particular combinations of domains.
+            </longDesc>
+        </resource><resource featured="true" dbname="cdd">
+            <resource-type>Databases</resource-type>
+            <title>Conserved Domain Database (CDD)</title>
+            <categories>
+                <category>Domains &amp; Structures</category>
+                <primary-category>Domains &amp; Structures</primary-category>
+                <category>Homology</category>
+                <category>Proteins</category>
+            </categories>
+            <url>/cdd</url>
+            <shortDesc>
+                 Database of conserved protein domains represented by multiple sequence
+                    alignments
+            </shortDesc>
+            <longDesc>
+                 A collection of sequence alignments and profiles representing protein domains
+                    conserved in molecular evolution. It also includes alignments of the domains to
+                    known 3-dimensional protein structures in the MMDB database.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Conserved Domain Search Service (CD Search)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Domains &amp; Structures</category>
+                <category>Homology</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/Structure/cdd/wrpsb.cgi</url>
+            <shortDesc>
+                 Locates conserved domains within a protein sequence
+            </shortDesc>
+            <longDesc>
+                 Identifies the conserved domains present in a protein sequence. CD-Search uses
+                    RPS-BLAST (Reverse Position-Specific BLAST) to compare a query sequence against
+                    position-specific score matrices that have been prepared from conserved domain
+                    alignments present in the Conserved Domain Database (CDD).
+            </longDesc>
+        </resource><resource dbname="nucest">
+            <resource-type>Databases</resource-type>
+            <title>Database of Expressed Sequence Tags (dbEST)</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+            </categories>
+            <url>/nucest</url>
+            <shortDesc>
+                 Expressed sequence tags in GenBank
+            </shortDesc>
+            <longDesc>
+                 A divison of GenBank that contains short single-pass reads of cDNA (transcript)
+                    sequences. dbEST can be searched directly through the Nucleotide EST
+                    Database.
+            </longDesc>
+        </resource><resource dbname="nucgss">
+            <resource-type>Databases</resource-type>
+            <title>Database of Genome Survey Sequences (dbGSS)</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/nucgss</url>
+            <shortDesc>
+                 Genome survey sequences in GenBank
+            </shortDesc>
+            <longDesc>
+                 A division of GenBank that contains short single-pass reads of genomic DNA.
+                    dbGSS can be searched directly through the Nucleotide GSS Database.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Database of Genomic Structural Variation (dbVar)</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <category>Variation</category>
+                <primary-category>Variation</primary-category>
+            </categories>
+            <url>/dbvar</url>
+            <shortDesc>
+                 A database of genomic structural variation
+            </shortDesc>
+            <longDesc>
+                 The dbVar database has been developed to archive information associated with
+                    large scale genomic variation, including large insertions, deletions,
+                    translocations and inversions. In addition to archiving variation discovery,
+                    dbVar also stores associations of defined variants with phenotype
+                    information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>Database of Genotype and Phenotype (dbGaP) Data Submission Policies</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+            </categories>
+            <url>/projects/gap/cgi-bin/about.cgi</url>
+            <shortDesc>
+                 Policies and procedures for submitting data to dbGaP
+            </shortDesc>
+            <longDesc>
+                 Guidelines and requirements for submitting genotype and phenotype association
+                    data to dbGaP.
+            </longDesc>
+        </resource><resource featured="true" dbname="gap">
+            <resource-type>Databases</resource-type>
+            <title>Database of Genotypes and Phenotypes (dbGaP)</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Variation</category>
+            </categories>
+            <url>/gap</url>
+            <shortDesc>
+                 Genotype/Phenotype association studies
+            </shortDesc>
+            <longDesc>
+                 An archive and distribution center for the description and results of studies
+                    which investigate the interaction of genotype and phenotype. These studies
+                    include genome-wide association (GWAS), medical resequencing, molecular
+                    diagnostic assays, as well as association between genotype and non-clinical
+                    traits. 
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Database of Major Histocompatibility Complex (dbMHC)</title>
+            <categories>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Variation</category>
+            </categories>
+            <url>/gv/mhc/main.cgi?cmd=init</url>
+            <shortDesc>
+                 Data related to the human major histocompatibility complex
+            </shortDesc>
+            <longDesc>
+                 An open, publicly accessible platform where the HLA community can submit, edit,
+                    view, and exchange data related to the human major histocompatibility
+                    complex.  It consists of an interactive Alignment Viewer for HLA and
+                    related genes, an MHC microsatellite database, a sequence interpretation site
+                    for Sequencing Based Typing (SBT), and a Primer/Probe database.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>Database of Major Histocompatibility Complex (dbMHC) Microsatellite Markers
+                Submission Template</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genomes &amp; Maps</category>
+                <category>Variation</category>
+            </categories>
+            <url>/gv/mhc/xslcgi.fcgi?cmd=mssearch&amp;user_id=0&amp;probe_id=0&amp;source_id=0&amp;locus_id=0&amp;locus_group=1&amp;proto_id=0&amp;kit_id=0&amp;dummy=0#submt</url>
+            <shortDesc>
+                 Guidelines and template for submitting MHC region microsatellite data to
+                    dbMHC.
+            </shortDesc>
+            <longDesc>
+                 Guidelines and template for submitting MHC region microsatellite data to
+                    dbMHC.
+            </longDesc>
+        </resource><resource featured="true" dbname="snp">
+            <resource-type>Databases</resource-type>
+            <title>Database of Short Genetic Variations (dbSNP)</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>Variation</primary-category>
+                <category>Variation</category>
+            </categories>
+            <url>/snp</url>
+            <shortDesc>
+                 Database of short nucleotide sequence variations.
+            </shortDesc>
+            <longDesc>
+                 Includes single nucleotide variations, microsatellites, and small-scale
+                    insertions and deletions. dbSNP contains population-specific frequency and
+                    genotype data, experimental conditions, molecular context, and mapping
+                    information for both neutral variations and clinical mutations.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Digital Differential Display (DDD)</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/UniGene/ddd.cgi</url>
+            <shortDesc>
+                 Tool to compare gene expression levels based on EST data in UniGene
+            </shortDesc>
+            <longDesc>
+                 A tool for comparing EST profiles in order to identify genes with significantly
+                    different expression levels.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>E-Bench</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/Class/wheeler/eutils/eu.cgi</url>
+            <shortDesc>
+                 Aid for building E-utility URLs and viewing their output
+            </shortDesc>
+            <longDesc>
+                 This interactive tool allows users to build E-utility URLs, either from a form
+                    or by hand, and then view their raw output. The tool provides a simple
+                    environment for testing E-utility URLs before including them in
+                    applications.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>E-Utilities</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <category>Literature</category>
+                <category>Proteins</category>
+            </categories>
+            <url>/books/NBK25501/ </url>
+            <shortDesc>
+                 URL application programming interface for searching, linking and downloading
+                    data within NCBI's Entrez system
+            </shortDesc>
+            <longDesc>
+                 Tools that provide access to data within NCBI's Entrez system outside of the
+                    regular web query interface. They provide a method of automating Entrez tasks
+                    within software applications. Each utility performs a specialized retrieval
+                    task, and can be used simply by writing a specially formatted URL.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Ebot</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/Class/PowerTools/eutils/ebot/ebot.cgi</url>
+            <shortDesc>
+                 Builds custom Perl scripts that execute E-utility pipelines
+            </shortDesc>
+            <longDesc>
+                 A tool that allows users to construct an E-utility analysis pipeline using an
+                    online form, and then generates a Perl script to execute the pipeline.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Electronic PCR (e-PCR)</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/sutils/e-pcr/</url>
+            <shortDesc>
+                 Tool for identifying sequence tagged sites in a DNA sequence
+            </shortDesc>
+            <longDesc>
+                 A computational procedure that is used to identify sequence tagged sites (STSs)
+                    within DNA sequences. e-PCR looks for potential STSs in DNA sequences by
+                    searching for subsequences that closely match the PCR primers and have the
+                    correct order, orientation, and spacing that could represent the PCR primers
+                    used to generate known STSs.
+            </longDesc>
+        </resource><resource dbname="epigenomics">
+            <resource-type>Databases</resource-type>
+            <title>Epigenomics</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/epigenomics</url>
+            <shortDesc>
+                 Genomic maps of stable, inheritable epigenetic features
+            </shortDesc>
+            <longDesc>
+                 This resource enables users to explore and visualize richly-annotated
+                    epigenomics datasets. It provides a unique interface to search and navigate
+                    epigenomic data in the context of biological sample information, as well as
+                    tools to select, download and view multiple sets of epigenomic data as tracks on
+                    genome browsers.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Frequency-weighted Link (FLink)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+            </categories>
+            <url>/Structure/flink/flink.cgi</url>
+            <shortDesc>
+                 FLink provides frequency-weighted links between records in select Entrez
+                    databases
+            </shortDesc>
+            <longDesc>
+                 FLink is a tool that enables you to link from a group of records in a source
+                    database to a ranked list of associated records in a destination database based
+                    on frequency-weighted statistics.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: BLAST Databases</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/blast/db/</url>
+            <shortDesc>
+                 Databases for stand-alone BLAST
+            </shortDesc>
+            <longDesc>
+                 Sequence databases for use with the stand-alone BLAST programs. The files in
+                    this directory are pre-formatted databases that are ready to use with BLAST.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: CDD</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Domains &amp; Structures</category>
+                <category>Proteins</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/mmdb/cdd/</url>
+            <shortDesc>
+                 Download a database of conserved protein domains represented by multiple
+                    sequence alignments
+            </shortDesc>
+            <longDesc>
+                 This site provides full data records for CDD, along with individual Position
+                    Specific Scoring Matrices (PSSMs), mFASTA sequences and annotation data for each
+                    conserved domain. See the README file for full details.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: dbGAP Open-Access Data</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Variation</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/dbgap</url>
+            <shortDesc>
+                 Publicly available sections of genotype/phenotype association studies
+            </shortDesc>
+            <longDesc>
+                 Open-access data generally include summaries of genotype/phenotype association
+                    studies, descriptions of the measured variables, and study documents, such as
+                    the protocol and questionnaires. Access to individual-level data, including
+                    phenotypic data tables and genotypes, requires varying levels of
+                    authorization.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: dbMHC Data</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Variation</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/mhc</url>
+            <shortDesc>
+                 Download data related to the human major histocompatibility complex
+            </shortDesc>
+            <longDesc>
+                 This site contains data in separate directories for the various projects and
+                    resources within the database of human major histocompatibility (dbMHC).
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: FASTA BLAST Databases</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA</url>
+            <shortDesc>
+                 BLAST databases in FASTA format
+            </shortDesc>
+            <longDesc>
+                 Sequence databases in FASTA format for use with the stand-alone BLAST programs.
+                    These databases must be formatted using formatdb before they can be used with
+                    BLAST.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: GenBank</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+            </categories>
+            <url>/genbank/GenBankFtp.html</url>
+            <shortDesc>
+                 Database of submitted nucleotide sequences
+            </shortDesc>
+            <longDesc>
+                 This site contains files for all sequence records in GenBank in the default flat
+                    file format. The files are organized by GenBank division, and the full contents
+                    are described in the README.genbank file.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Gene</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genes &amp; Expression</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/gene/</url>
+            <shortDesc>
+                 Downloadable database of gene loci and associated transcripts and proteins
+            </shortDesc>
+            <longDesc>
+                 This site contains three directories: DATA, GeneRIF and tools. The DATA
+                    directory contains files listing all data linked to GeneIDs along with
+                    subdirectories containing ASN.1 data for the Gene records. The GeneRIF (Gene
+                    References into Function) directory contains PubMed identifiers for articles
+                    describing the function of a single gene or interactions between products of two
+                    genes. Sample programs for manipulating gene data are provided in the tools
+                    directory. Please see the README file for details.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Gene Expression Omnibus (GEO) Profiles and Datasets</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genes &amp; Expression</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/geo/</url>
+            <shortDesc>
+                 Database of gene expression profiles and datasets
+            </shortDesc>
+            <longDesc>
+                 This site contains GEO data in two formats: SOFT (Simple Omnibus in Text Format)
+                    and MINiML (MIAME Notation in Markup Language). Summary text files and
+                    supplementary data are also available. Please see the README.TXT file for more
+                    information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Genome</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/genomes/</url>
+            <shortDesc>
+                 Downloadable database of curated genomic DNA sequences
+            </shortDesc>
+            <longDesc>
+                 This site contains genome sequence and mapping data for organisms in Entrez
+                    Genome. The data are organized in directories for single species or groups of
+                    species. Mapping data are collected in the directory MapView and are organized
+                    by species. See the README file in the root directory and the README files in
+                    the species subdirectories for detailed information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Genome Mapping Data</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/genomes/MapView</url>
+            <shortDesc>
+                 Mapping data underlying the NCBI Map Viewer
+            </shortDesc>
+            <longDesc>
+                 Contains directories for each genome that include available mapping data for
+                    current and previous builds of that genome.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Genome Markers (UniSTS)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/repository/UniSTS/</url>
+            <shortDesc>
+                 Downloadable database of Sequence Tagged Sites
+            </shortDesc>
+            <longDesc>
+                 This directory contains text and XML files for UniSTS records along with mapping
+                    data.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: GenPept</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Proteins</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/ncbi-asn1/protein_fasta/</url>
+            <shortDesc>
+                 Conceptual translations of protein coding sequences in GenBank
+            </shortDesc>
+            <longDesc>
+                 The protein sequences corresponding to the translations of coding sequences
+                    (CDS) in GenBank are collected for each GenBank release..Please see the README
+                    file in the directory for more information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: HomoloGene</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genes &amp; Expression</category>
+                <category>Homology</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/HomoloGene/current</url>
+            <shortDesc>
+                 Downloadable sets of homologous eukaryotic genes
+            </shortDesc>
+            <longDesc>
+                 This site contains data for each build of HomoloGene, beginning with build 35.
+                    Complete data for each build are provided in XML, and a data summary is provided
+                    in tab-delimited text format.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: NCBI Field Guide Manual</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/FieldGuide/FGPlus/</url>
+            <shortDesc>
+                 Downloadable material for NCBI's field guide.
+            </shortDesc>
+            <longDesc>
+                 Downloadable material for NCBI's previously offered Field Guide training
+                    course.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: NCBI Structure Course Materials</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/sayers/Structure/</url>
+            <shortDesc>
+                 Course materials covering NCBI structure and CDD resources
+            </shortDesc>
+            <longDesc>
+                 PowerPoint slides, handouts and exercises for the previously offered NCBI course
+                    "Exploring 3D Molecular Structures."
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: NCBI Taxonomy</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Taxonomy</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/</url>
+            <shortDesc>
+                 Download the NCBI taxonomy tree
+            </shortDesc>
+            <longDesc>
+                 This site contains the full taxonomy database along with files associating
+                    nucleotide and protein sequence records with their taxonomy IDs. See the
+                    taxdump_readme.txt and gi_taxid.readme files for more information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Protein Clusters</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Homology</category>
+                <category>Proteins</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/CLUSTERS/</url>
+            <shortDesc>
+                 Download clusters of related proteins from prokaryotes and organelles
+            </shortDesc>
+            <longDesc>
+                 This site contains data from the Protein Clusters database arranged by release
+                    date. See the README files for more information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: PubChem</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pubchem/</url>
+            <shortDesc>
+                 Contributed chemical substances, standardized chemical structures and
+                    bioactivity data
+            </shortDesc>
+            <longDesc>
+                 This site provides data from the PubChem Substance, Compound and Bioassay
+                    databases for download via ftp. Full downloads of the databases are available
+                    along with daily, weekly and monthly updates for Substance and Compound.
+                    Substance and Compound data are provided in ASN.1, SDF and XML formats. See the
+                    README files for more information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: RefSeq</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Proteins</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/refseq/release/</url>
+            <shortDesc>
+                 Curated sequences produced by NCBI
+            </shortDesc>
+            <longDesc>
+                 This site contains all nucleotide and protein sequence records in the Reference
+                    Sequence (RefSeq) collection. The ""release"" directory
+                    contains the most current release of the complete collection, while data for
+                    selected organisms (such as human, mouse and rat) are available in separate
+                    directories. Data are available in FASTA and flat file formats. See the README
+                    file for details.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Sequence Read Archive (SRA) Download Facility</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/Traces/sra/sra.cgi?cmd=show&amp;f=faspftp_runs_v1&amp;m=downloads&amp;s=download_sra</url>
+            <shortDesc>
+                 Short reads derived from next-generation sequencing
+            </shortDesc>
+            <longDesc>
+                 This site contains next-generation sequencing data organized by the submitted
+                    sequencing project.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Site</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+            </categories>
+            <url>/Ftp/</url>
+            <shortDesc>
+                 Site for downloading NCBI data and software
+            </shortDesc>
+            <longDesc>
+                 FTP download site for NCBI databases, tools, and utilities.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: SKY/M-Fish and CGH Data</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/sky-cgh/</url>
+            <shortDesc>
+                 Download database of chromosomal aberrations in cancer
+            </shortDesc>
+            <longDesc>
+                 This site contains SKY-CGH data in ASN.1, XML and EasySKYCGH formats. See the
+                    skycghreadme.txt file for more information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: SNP</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Variation</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/snp/</url>
+            <shortDesc>
+                 Downloadable data for SNP.
+            </shortDesc>
+            <longDesc>
+                 Downloadable data for SNP.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Structure (MMDB)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Domains &amp; Structures</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/mmdb/</url>
+            <shortDesc>
+                 Download a database of 3D macromolecular structures derived from PDB
+            </shortDesc>
+            <longDesc>
+                 This site contains ASN.1 data for all records in MMDB along with VAST alignment
+                    data and the non-redundant PDB (nr-PDB) data sets. See the README file for more
+                    information.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Trace Archive</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/TraceDB</url>
+            <shortDesc>
+                 Download DNA chromatograms, base calls, and quality estimates for single-pass
+                    reads
+            </shortDesc>
+            <longDesc>
+                 This site contains the trace chromatogram data organized by species. Data
+                    include chromatogram, quality scores, FASTA sequences from automatic base calls,
+                    and other ancillary information in tab-delimited text as well as XML formats.
+                    See the README file for details.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: UniGene</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/repository/UniGene/</url>
+            <shortDesc>
+                 Downloadable gene-centered clusters of transcripts and ESTs
+            </shortDesc>
+            <longDesc>
+                 This site contains individual directories for each organism with data in
+                    UniGene. The data for each species includes the unique sequence for each UniGene
+                    cluster, all sequences in each cluster in FASTA format and library information
+                    for the cluster. See the README file for further details.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: UniVec</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/pub/UniVec/</url>
+            <shortDesc>
+                 Database used for detecting vector contamination
+            </shortDesc>
+            <longDesc>
+                 This site contains the UniVec and UniVec_Core databases in FASTA format. See the
+                    README.uv file for details.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>FTP: Whole Genome Shotgun Sequences</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>ftp://ftp.ncbi.nlm.nih.gov/genbank/wgs</url>
+            <shortDesc>
+                 Sequences from Whole Genome Shotgun sequencing projects
+            </shortDesc>
+            <longDesc>
+                 This site contains whole genome shotgun sequence data organized by the 4-digit
+                    project code. Data include GenBank and GenPept flat files, quality scores and
+                    summary statistics. See the README.genbank.wgs file for more information.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>GenBank</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+            </categories>
+            <url>/genbank/</url>
+            <shortDesc>
+                 DNA and RNA sequences submitted to NCBI
+            </shortDesc>
+            <longDesc>
+                 The NIH genetic sequence database, an annotated collection of all publicly
+                    available DNA sequences. GenBank is part of the International Nucleotide
+                    Sequence Database Collaboration, which comprises the DNA DataBank of Japan
+                    (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at NCBI.
+                    These three organizations exchange data on a daily basis. GenBank consists of
+                    several divisions, most of which can be accessed through the Nucleotide
+                    database. The exceptions are the EST and GSS divisions, which are accessed
+                    through the Nucleotide EST and Nucleotide GSS databases, respectively.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>GenBank: BankIt</title>
+            <categories>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+            </categories>
+            <url>/WebSub/?tool=genbank</url>
+            <shortDesc>
+                 Web tool for simple submissions of nucleotide sequences
+            </shortDesc>
+            <longDesc>
+                 A web-based sequence submission tool for one or a few submissions to the GenBank
+                    database, designed to make the submission process quick and easy.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>GenBank: Barcode</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Taxonomy</category>
+            </categories>
+            <url>/WebSub/index.cgi?tool=barcode</url>
+            <shortDesc>
+                 Tool to submit short nucleotide sequences used for species identification.
+            </shortDesc>
+            <longDesc>
+                 Tool for submission to the GenBank database of Barcode short nucleotide
+                    sequences from a standard genetic locus for use in species identification.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>GenBank: Sequin</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+            </categories>
+            <url>/projects/Sequin</url>
+            <shortDesc>
+                 Software tool for complex submissions of nucleotide sequences
+            </shortDesc>
+            <longDesc>
+                 A stand-alone software tool developed by the NCBI for submitting and updating
+                    entries to public sequence databases (GenBank, EMBL, or DDBJ). It is capable of
+                    handling simple submissions that contain a single short mRNA sequence, complex
+                    submissions containing long sequences, multiple annotations, segmented sets of
+                    DNA, as well as sequences from phylogenetic and population studies with
+                    alignments. For simple submission, use the online submission tool BankIt
+                    instead.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>GenBank: tbl2asn</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/genbank/tbl2asn2.html</url>
+            <shortDesc>
+                 Command-line program for submitting sequence data
+            </shortDesc>
+            <longDesc>
+                 A command-line program that automates the creation of sequence records for
+                    submission to GenBank using many of the same functions as Sequin. It is used
+                    primarily for submission of complete genomes and large batches of sequences.
+            </longDesc>
+        </resource><resource featured="true" dbname="gene">
+            <resource-type>Databases</resource-type>
+            <title>Gene</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+                <category>Genetics &amp; Medicine</category>
+            </categories>
+            <url>/gene</url>
+            <shortDesc>
+                 Database of gene loci and associated transcripts and proteins
+            </shortDesc>
+            <longDesc>
+                 A searchable database of genes, focusing on genomes that have been completely
+                    sequenced and that have an active research community to contribute gene-specific
+                    data. Information includes nomenclature, chromosomal localization, gene products
+                    and their attributes (e.g., protein interactions), associated markers,
+                    phenotypes, interactions, and links to citations, sequences, variation details,
+                    maps, expression reports, homologs, protein domain content, and external
+                    databases.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Gene Expression Omnibus (GEO) BLAST</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+                <category>Genes &amp; Expression</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/geo/query/blast.html</url>
+            <shortDesc>
+                 Tool to locate sequences on gene expression platforms using BLAST
+            </shortDesc>
+            <longDesc>
+                 Tool for aligning a query sequence (nucleotide or protein) to GenBank sequences
+                    included on microarray or SAGE platforms in the GEO database.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Gene Expression Omnibus (GEO) Database </title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/geo/</url>
+            <shortDesc>
+                 Gene Expression Omnibus (GEO) Database
+            </shortDesc>
+            <longDesc>
+                 A public functional genomics data repository supporting MIAME-compliant data
+                    submissions. Array- and sequence-based data are accepted and tools are provided
+                    to help users query and download experiments and curated gene expression
+                    profiles.
+            </longDesc>
+        </resource><resource featured="true" dbname="gds">
+            <resource-type>Databases</resource-type>
+            <title>Gene Expression Omnibus (GEO) Datasets</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/gds</url>
+            <shortDesc>
+                 Curated collections of gene expression data sets
+            </shortDesc>
+            <longDesc>
+                 Stores curated gene expression and molecular abundance DataSets assembled from
+                    the Gene Expression Omnibus (GEO) repository. DataSet records contain additional
+                    resources, including cluster tools and differential expression queries.
+            </longDesc>
+        </resource><resource featured="true" dbname="geoprofiles">
+            <resource-type>Databases</resource-type>
+            <title>Gene Expression Omnibus (GEO) Profiles</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/geoprofiles/</url>
+            <shortDesc>
+                 Database of gene expression Profiles for individual sequences
+            </shortDesc>
+            <longDesc>
+                 Stores individual gene expression and molecular abundance Profiles assembled
+                    from the Gene Expression Omnibus (GEO) repository. Search for specific profiles
+                    of interest based on gene annotation or pre-computed profile
+                    characteristics.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>Gene Expression Omnibus (GEO) Web Deposit</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/projects/geo/info/submission.html</url>
+            <shortDesc>
+                 Online tool for submitting data to GEO
+            </shortDesc>
+            <longDesc>
+                 Submit expression data, such as microarray, SAGE or mass spectrometry datasets
+                    to the NCBI Gene Expression Omnibus (GEO) database.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Gene Plot</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/sutils/geneplot.cgi</url>
+            <shortDesc>
+                 Compares two prokaryotic genomes based on protein homologs
+            </shortDesc>
+            <longDesc>
+                 A tool for pairwise comparison of two prokaryotic genomes that displays pairs of
+                    protein homologs that are symmetrical best hits between the two genomes.
+            </longDesc>
+        </resource><resource dbname="genereviews">
+            <resource-type>Databases</resource-type>
+            <title>GeneReviews</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Literature</category>
+            </categories>
+            <url>/books/NBK1116/</url>
+            <shortDesc>Review articles for disease descriptions and genetic involvement.</shortDesc>
+            <longDesc>
+                 A collection of expert-authored, peer-reviewed disease descriptions on the NCBI
+                    Bookshelf that apply genetic testing to the diagnosis, management, and genetic
+                    counseling of patients and families with specific inherited conditions.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>GeneRIF</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/projects/GeneRIF/GeneRIFhelp.html</url>
+            <shortDesc>
+                 Annotate gene record with function/protein data and associated PubMed ID
+            </shortDesc>
+            <longDesc>
+                 GeneRIF provides a simple mechanism to allow scientists to add to the functional
+                    annotation of genes in the Gene database.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Genes and Disease</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+            </categories>
+            <url>/books/NBK22183/</url>
+            <shortDesc>
+                 Articles about genetic disorders
+            </shortDesc>
+            <longDesc>
+                 Summaries of information for selected genetic disorders with discussions of the
+                    underlying mutation(s) and clinical features, as well as links to related
+                    databases and organizations.
+            </longDesc>
+        </resource><resource dbname="genetests">
+            <resource-type>Databases</resource-type>
+            <title>GeneTests</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+            </categories>
+            <url>/sites/GeneTests/?db=GeneTests</url>
+            <shortDesc>
+                 Medical genetics testing information
+            </shortDesc>
+            <longDesc>
+                 A publicly funded medical genetics information resource developed for
+                    physicians, other healthcare providers, and researchers, available at no cost to
+                    all interested persons.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Genetic Codes</title>
+            <categories>
+                <primary-category>Taxonomy</primary-category>
+                <category>Taxonomy</category>
+            </categories>
+            <url>/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes</url>
+            <shortDesc>
+                 Finds the genetic translation code for a taxonomy node
+            </shortDesc>
+            <longDesc>
+                 Displays the genetic codes for organisms in the Taxonomy database in tables and
+                    on a taxonomic tree.
+            </longDesc>
+        </resource><resource dbname="gtr">
+            <resource-type>Databases</resource-type>
+            <title>Genetic Testing Registry (GTR)</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Variation</category>
+            </categories>
+            <url>/gtr</url>
+            <shortDesc>
+                 Medical genetics testing information
+            </shortDesc>
+            <longDesc>
+                 A voluntary registry of genetic tests and laboratories, with detailed
+                    information about the tests such as what is measured and analytic and clinical
+                    validity.  GTR also is a nexus for information about genetic conditions and
+                    provides context-specific links to a variety of resources, including practice
+                    guidelines, published literature, and genetic data/information. The initial
+                    scope of GTR includes single gene tests for Mendelian disorders, as well as
+                    arrays, panels and pharmacogenetic tests.
+            </longDesc>
+        </resource><resource featured="true" dbname="genome">
+            <resource-type>Databases</resource-type>
+            <title>Genome</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/genome</url>
+            <shortDesc>
+                 Curated genomic DNA sequences
+            </shortDesc>
+            <longDesc>
+                 Contains sequence and map data from the whole genomes of over 1000 organisms.
+                    The genomes represent both completely sequenced organisms and those for which
+                    sequencing is in progress. All three main domains of life (bacteria, archaea,
+                    and eukaryota) are represented, as well as many viruses, phages, viroids,
+                    plasmids, and organelles.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Genome BLAST</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Homology</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Taxonomy</primary-category>
+            </categories>
+            <url>/blast/Blast.cgi</url>
+            <shortDesc>
+                 Aligns sequences to a genomic assembly
+            </shortDesc>
+            <longDesc>
+                 This tool compares nucleotide or protein sequences to genomic sequence databases
+                    and calculates the statistical significance of matches using the Basic Local
+                    Alignment Search Tool (BLAST) algorithm.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Genome ProtMap</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Homology</category>
+                <primary-category>Homology</primary-category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/sutils/protmap.cgi</url>
+            <shortDesc>
+                 Maps proteins from a COG/VOG back to its genome
+            </shortDesc>
+            <longDesc>
+                 Genome ProtMap maps each protein from a COG, or in the case of viruses a VOG,
+                    back to its genome, and displays all the genomic segments coding for members of
+                    this particular group of related proteins. The view can be shifted to focus on
+                    an adjacent COG/VOG, and clusters can be searched by name, protein gi, or gene
+                    locus tag.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Genome Reference Consortium (GRC)</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/projects/genome/assembly/grc/</url>
+            <shortDesc>
+                 Genome Reference Consortium (GRC): Tools and information for the human and mouse
+                    reference genomes.
+            </shortDesc>
+            <longDesc>
+                 The Genome Reference Consortium (GRC) maintains responsibility for the human and
+                    mouse reference genomes. Members consist of The Genome Center at Washington
+                    University, the Wellcome Trust Sanger Institute, the European Bioinformatics
+                    Institute (EBI) and the National Center for Biotechnology Information (NCBI).
+                    The GRC works to correct misrepresented loci and to close remaining assembly
+                    gaps. In addition, the GRC seeks to provide alternate assemblies for complex or
+                    structurally variant genomic loci. At the GRC website
+                    (http://www.genomereference.org), the public can view genomic regions currently
+                    under review, report genome-related problems and contact the GRC.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Genome Remapping Service</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+                <category>Genomes &amp; Maps</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/genome/tools/remap</url>
+            <shortDesc>
+                 NCBI Remap Tool
+            </shortDesc>
+            <longDesc>
+                 NCBI's Remap tool allows users to project annotation data and convert
+                    locations of features from one genomic assembly to another or to RefSeqGene
+                    sequences through a base by base analysis. Options are provided to adjust the
+                    stringency of remapping, and summary results are displayed on the web page. Full
+                    results can be downloaded for viewing in NCBI's Genome Workbench graphical
+                    viewer, and annotation data for the remapped features, as well as summary data,
+                    is also available for download.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Genome Workbench</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/projects/gbench/</url>
+            <shortDesc>
+                 Stand-alone application for analyzing sequence data
+            </shortDesc>
+            <longDesc>
+                 An integrated application for viewing and analyzing sequence data. With Genome
+                    Workbench, you can view data in publically available sequence databases at NCBI,
+                    and mix these data with your own data.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>HIV-1, Human Protein Interaction Database</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Proteins</primary-category>
+                <category>Proteins</category>
+            </categories>
+            <url>/RefSeq/HIVInteractions</url>
+            <shortDesc>
+                 Summary of all known HIV-1 protein interactions.
+            </shortDesc>
+            <longDesc>
+                 A database of known interactions of HIV-1 proteins with proteins from human
+                    hosts. It provides annotated bibliographies of published reports of protein
+                    interactions, with links to the corresponding PubMed records and sequence
+                    data.
+            </longDesc>
+        </resource><resource featured="true" dbname="homologene">
+            <resource-type>Databases</resource-type>
+            <title>HomoloGene</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <category>Homology</category>
+                <primary-category>Homology</primary-category>
+            </categories>
+            <url>/homologene</url>
+            <shortDesc>
+                 Sets of homologous eukaryotic genes
+            </shortDesc>
+            <longDesc>
+                 A gene homology tool that compares nucleotide sequences between pairs of
+                    organisms in order to identify putative orthologs. Curated orthologs are
+                    incorporated from a variety of sources via the Gene database.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Influenza Virus</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/genomes/FLU/</url>
+            <shortDesc>
+                 Data from the NIAID Influenza Genome Sequencing Project
+            </shortDesc>
+            <longDesc>A compilation of data from the NIAID Influenza Genome Sequencing Project and
+                GenBank.  It provides tools for flu sequence analysis, annotation and
+                submission to GenBank. This resource also has links to other flu sequence resources,
+                and publications and general information about flu viruses. </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Journals in NCBI Databases</title>
+            <categories>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/nlmcatalog/journals</url>
+            <shortDesc>
+                 Information on journals cited by NCBI records
+            </shortDesc>
+            <longDesc>
+                 Subset of the NLM Catalog database providing information on journals that are
+                    referenced in NCBI database records, including PubMed abstracts. This subset can
+                    be searched using the journal title, MEDLINE or ISO abbreviation, ISSN, or the
+                    NLM Catalog ID.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>LinkOut</title>
+            <categories>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/projects/linkout/</url>
+            <shortDesc>
+                 Service to provide links from NCBI records to external resources.
+            </shortDesc>
+            <longDesc>
+                 A service that allows third parties to link directly from PubMed and other
+                    Entrez database records to relevant web-accessible resources beyond the Entrez
+                    system. Examples of LinkOut resources include full-text publications, biological
+                    databases, consumer health information and research tools.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Map Viewer</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/mapview/</url>
+            <shortDesc>
+                 Tool for searching, viewing and downloading genomic maps and related data
+            </shortDesc>
+            <longDesc>
+                 Provides special browsing capabilities of maps and assembled sequences for a
+                    subset of organisms. You can view and search an organism's complete genome,
+                    display maps, and zoom into progressively greater levels of detail, down to the
+                    sequence data for a region of interest.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>MEDLINE (Leasing)</title>
+            <categories>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>http://www.nlm.nih.gov/databases/journal.html</url>
+            <shortDesc>
+                 Obtain a lease to download PubMed from the National Library of Medicine
+            </shortDesc>
+            <longDesc>
+                 NLM leases MEDLINE/PubMed to U.S. individuals or organizations.
+            </longDesc>
+        </resource><resource featured="true" dbname="mesh">
+            <resource-type>Databases</resource-type>
+            <title>MeSH Database</title>
+            <categories>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/mesh</url>
+            <shortDesc>
+                 Controlled vocabulary for MEDLINE
+            </shortDesc>
+            <longDesc>
+                 MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's
+                    controlled vocabulary for indexing articles for MEDLINE/PubMed. MeSH terminology
+                    provides a consistent way to retrieve information that may use different
+                    terminology for the same concepts.
+            </longDesc>
+        </resource><resource dbname="nlmcatalog">
+            <resource-type>Databases</resource-type>
+            <title>National Library of Medicine (NLM) Catalog</title>
+            <categories>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/nlmcatalog</url>
+            <shortDesc>
+                 Catalog of the complete holdings of the National Library of Medicine
+            </shortDesc>
+            <longDesc>
+                 Bibliographic data for all the journals, books, audiovisuals, computer software,
+                    electronic resources and other materials that are in the library's
+                    holdings.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>National Library of Medicine (NLM) DTDs</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Literature</category>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>http://dtd.nlm.nih.gov/</url>
+            <shortDesc>
+                 XML DTDs for exchanging content between publishers and NLM
+            </shortDesc>
+            <longDesc>
+                 A suite of tag sets for authoring and archiving journal articles as well as
+                    transferring journal articles from publishers to archives and between archives.
+                    There are four tag sets: Archiving and Interchange Tag Set - Created to enable
+                    an archive to capture as many of the structural and semantic components of
+                    existing printed and tagged journal material as conveniently as possible;
+                    Journal Publishing Tag Set - Optimized for archives that wish to regularize and
+                    control their content, not to accept the sequence and arrangement presented to
+                    them by any particular publisher; Article Authoring Tag Set - Designed for
+                    authoring new journal articles; NCBI Book Tag Set - Written specifically to
+                    describe volumes for the NCBI online libraries.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>NCBI C++ Toolkit Manual</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Literature</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+                <category>Training &amp; Tutorials</category>
+            </categories>
+            <url>/books/NBK7160/</url>
+            <shortDesc>
+                 Searchable documentation of the NCBI C++ software library
+            </shortDesc>
+            <longDesc>
+                 A comprehensive manual on the NCBI C++ toolkit, including its design and
+                    development framework, a C++ library reference, software examples and demos,
+                    FAQs and release notes. The manual is searchable online and can be downloaded as
+                    a series of PDF documents.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>NCBI Data Specifications</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Literature</category>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/data_specs</url>
+            <shortDesc>
+                 XML DTDs for NCBI databases
+            </shortDesc>
+            <longDesc>
+                 Specifications for NCBI data in ASN.1 or DTD format are available on the Index
+                    of data_specs page. The "NCBI_data_conversion.html" links to the
+                    conversion tool.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>NCBI Education Page</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/education/</url>
+            <shortDesc>
+                 Central page providing links to tutorials and training materials
+            </shortDesc>
+            <longDesc>
+                 Provides links to tutorials and training materials, including PowerPoint slides
+                    and print handouts.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>NCBI Glossary</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/books/NBK21106/</url>
+            <shortDesc>
+                 Glossary of bioinformatics terms
+            </shortDesc>
+            <longDesc>
+                 Part of the NCBI Handbook, this glossary contains descriptions of NCBI tools and
+                    acronyms, bioinformatics terms and data representation formats.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>NCBI Handbook</title>
+            <categories>
+                <category>Literature</category>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/books/NBK21101/</url>
+            <shortDesc>
+                 Introductory articles about NCBI resources
+            </shortDesc>
+            <longDesc>
+                 An extensive collection of articles about NCBI databases and software. Designed
+                    for a novice user, each article presents a general overview of the resource and
+                    its design, along with tips for searching and using available analysis tools.
+                    All articles can be searched online and downloaded in PDF format; the handbook
+                    can be accessed through the NCBI Bookshelf.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>NCBI Help Manual</title>
+            <categories>
+                <category>Literature</category>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/books/NBK3831/</url>
+            <shortDesc>
+                 Online, searchable help documentation
+            </shortDesc>
+            <longDesc>
+                 Accessed through the NCBI Bookshelf, the Help Manual contains documentation for
+                    many NCBI resources, including PubMed, PubMed Central, the Entrez system, Gene,
+                    SNP and LinkOut. All chapters can be downloaded in PDF format.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>NCBI News</title>
+            <categories>
+                <category>Literature</category>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/books/NBK1969/</url>
+            <shortDesc>
+                 NCBI's monthly newsletter
+            </shortDesc>
+            <longDesc>
+                 NCBI's monthly newsletter that provides information on new and updated
+                    databases, and software services. The News often has feature articles that
+                    highlight and demonstrate services, features, tools, and interesting data with
+                    practical examples of their use.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>NCBI Toolbox</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+            </categories>
+            <url>/IEB/ToolBox/index.cgi</url>
+            <shortDesc>
+                 The NCBI C/C++ software library
+            </shortDesc>
+            <longDesc>
+                 A set of software and data exchange specifications used by NCBI to produce
+                    portable, modular software for molecular biology. The software in the Toolbox is
+                    primarily designed to read records in Abstract Syntax Notation 1 (ASN.1) format,
+                    an International Standards Organization (ISO) data representation format.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>NCBI Website Search</title>
+            <categories>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Data &amp; Software</category>
+                <category>Training &amp; Tutorials</category>
+            </categories>
+            <url>/ncbisearch/?term=all[sb]</url>
+            <shortDesc>
+                 Search NCBI Web site for static content, documentation, and tools.
+            </shortDesc>
+            <longDesc>
+                 A database of static NCBI web pages, documentation, and online tools. These
+                    pages include such content as specialized online sequence analysis tools, back
+                    issues of newsletters, legacy resource description pages, sample code, and other
+                    miscellaneous resources. Searching this database is equivalent to a site search
+                    tool for the whole NCBI web site, with the exception of the FTP directories.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>NIH Manuscript Submissions (NIHMS)</title>
+            <categories>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>http://www.nihms.nih.gov/</url>
+            <shortDesc>
+                 NIH-funded manuscript submission system.
+            </shortDesc>
+            <longDesc>
+                 The NIH Manuscript Submission (NIHMS) System is used to submit manuscripts that
+                    arise from NIH funding to the <a href="http://www.pubmedcentral.nih.gov">PubMed
+                        Central</a> digital archive, in accordance with the NIH Public Access Policy
+                    and the law it implements. The law and Public Access Policy are intended to
+                    ensure that the public has access to the published results of NIH-funded
+                    research.
+            </longDesc>
+        </resource><resource featured="true" dbname="nuccore">
+            <resource-type>Databases</resource-type>
+            <title>Nucleotide Database</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/nuccore</url>
+            <shortDesc>
+                 Nucleotide sequence data in GenBank and RefSeq
+            </shortDesc>
+            <longDesc>
+                 A collection of nucleotide sequences from several sources, including GenBank,
+                    RefSeq, the Third Party Annotation (TPA) database, and PDB. Searching the
+                    Nucleotide Database will yield available results from each of its component
+                    databases.
+            </longDesc>
+        </resource><resource dbname="omia">
+            <resource-type>Databases</resource-type>
+            <title>Online Mendelian Inheritance in Animals (OMIA)</title>
+            <categories>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+            </categories>
+            <url>/omia</url>
+            <shortDesc>
+                 Database of genetic disorders in non-human animals
+            </shortDesc>
+            <longDesc>
+                 A database of genes, inherited disorders and traits in animal species (other
+                    than human and mouse), with textual information and references, as well as links
+                    to relevant records from other NCBI databases, such as PubMed and Gene.
+            </longDesc>
+        </resource><resource featured="true" dbname="omim">
+            <resource-type>Databases</resource-type>
+            <title>Online Mendelian Inheritance in Man (OMIM)</title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+            </categories>
+            <url>/omim</url>
+            <shortDesc>
+                 Database of human genes and genetic disorders
+            </shortDesc>
+            <longDesc>
+                 A database of  human genes and genetic disorders. NCBI maintains current
+                    content and continues to support its searching and integration with other NCBI
+                    databases.  However, OMIM now has a new home at <a href="http://omim.org">omim.org</a>, and users are directed to this site for full record
+                    displays.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Open Mass Spectrometry Search Algorithm (OMSSA) Search</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>http://pubchem.ncbi.nlm.nih.gov/omssa/index.htm</url>
+            <shortDesc>
+                 Matches mass spectra of peptides to proteins at NCBI
+            </shortDesc>
+            <longDesc>
+                 An efficient search engine for identifying MS/MS peptide spectra by searching
+                    libraries of known protein sequences. OMSSA scores significant hits with a
+                    probability score developed using classical hypothesis testing, the same
+                    statistical method used in BLAST.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Open Reading Frame Finder (ORF Finder)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <primary-category>Sequence Analysis</primary-category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/gorf/gorf.html</url>
+            <shortDesc>
+                 Tool for finding open reading frames in a query sequence
+            </shortDesc>
+            <longDesc>
+                 A graphical analysis tool that finds all open reading frames in a user's
+                    sequence or in a sequence already in the database. Sixteen different genetic
+                    codes can be used. The deduced amino acid sequence can be saved in various
+                    formats and searched against protein databases using BLAST.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>OSIRIS</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>Variation</category>
+            </categories>
+            <url>/projects/SNP/osiris</url>
+            <shortDesc>
+                 A public domain quality assurance software package that facilitates the
+                    assessment of multiplex short tandem repeat (STR) DNA profiles based on
+                    laboratory-specific protocols.
+            </shortDesc>
+            <longDesc>
+                 A public domain quality assurance software package that facilitates the
+                    assessment of multiplex short tandem repeat (STR) DNA profiles based on
+                    laboratory-specific protocols. OSIRIS evaluates the raw electrophoresis data
+                    using an independently derived mathematically-based sizing algorithm. It offers
+                    two new peak quality measures - fit level and sizing residual. It can be
+                    customized to accommodate laboratory-specific signatures such as background
+                    noise settings, customized naming conventions and additional internal laboratory
+                    controls.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Phenotype-Genotype Integrator (PheGenI) </title>
+            <categories>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Variation</category>
+            </categories>
+            <url>/gap/PheGenI </url>
+            <shortDesc>
+                 Human phenotype-genotype relationships
+            </shortDesc>
+            <longDesc>
+                 Supports finding human phenotype/genotype relationships with queries by
+                    phenotype, chromosome location, gene, and SNP identifiers. Currently includes
+                    information from dbGaP, the NHGRI GWAS Catalog, and GTeX. Displays results on
+                    the genome, on sequence, or in tables for download.
+            </longDesc>
+        </resource><resource featured="true" dbname="popset">
+            <resource-type>Databases</resource-type>
+            <title>PopSet</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/popset</url>
+            <shortDesc>
+                 Sets of nucleotide sequences representing a population
+            </shortDesc>
+            <longDesc>
+                 Database of related DNA sequences that originate from comparative studies:
+                    phylogenetic, population, environmental and, to a lesser degree, mutational.
+                    Each record in the database is a set of DNA sequences. For example, a population
+                    set provides information on genetic variation within an organism, while a
+                    phylogenetic set may contain sequences, and their alignment, of a single gene
+                    obtained from several related organisms.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Primer-BLAST</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/tools/primer-blast</url>
+            <shortDesc>
+                 Designs PCR primers and analyzes them for target specificity using BLAST.
+            </shortDesc>
+            <longDesc>
+                 The Primer-BLAST tool uses Primer3 to design PCR primers to a sequence template.
+                    The potential products are then automatically analyzed with a BLAST search
+                    against user specified databases, to check the specificity to the target
+                    intended.
+            </longDesc>
+        </resource><resource dbname="probe">
+            <resource-type>Databases</resource-type>
+            <title>Probe</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+                <category>Genes &amp; Expression</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/probe</url>
+            <shortDesc>
+                 Nucleotide reagents used in genotyping, gene expression and gene silencing
+            </shortDesc>
+            <longDesc>
+                 A public registry of nucleic acid reagents designed for use in a wide variety of
+                    biomedical research applications, together with information on reagent
+                    distributors, probe effectiveness, and computed sequence similarities.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>ProSplign</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/sutils/static/prosplign/prosplign.html</url>
+            <shortDesc>
+                 Tool for aligning proteins to genomic DNA
+            </shortDesc>
+            <longDesc>
+                 A utility for computing alignment of proteins to genomic nucleotide sequence. It
+                    is based on a variation of the Needleman Wunsch global alignment algorithm and
+                    specifically accounts for introns and splice signals. Due to this algorithm,
+                    ProSplign is accurate in determining splice sites and tolerant to sequencing
+                    errors.
+            </longDesc>
+        </resource><resource featured="true" dbname="proteinclusters">
+            <resource-type>Databases</resource-type>
+            <title>Protein Clusters</title>
+            <categories>
+                <category>Homology</category>
+                <primary-category>Homology</primary-category>
+                <category>Proteins</category>
+            </categories>
+            <url>/proteinclusters</url>
+            <shortDesc>
+                 Clusters of related proteins from prokaryotes and organelles
+            </shortDesc>
+            <longDesc>
+                 A collection of related protein sequences (clusters), consisting of Reference
+                    Sequence proteins encoded by complete prokaryotic and organelle plasmids and
+                    genomes. The database provides easy access to annotation information,
+                    publications, domains, structures, external links, and analysis tools.
+            </longDesc>
+        </resource><resource featured="true" dbname="protein">
+            <resource-type>Databases</resource-type>
+            <title>Protein Database</title>
+            <categories>
+                <category>Proteins</category>
+                <primary-category>Proteins</primary-category>
+            </categories>
+            <url>/protein</url>
+            <shortDesc>
+                 Protein sequence data
+            </shortDesc>
+            <longDesc>
+                 A database that includes protein sequence records from a variety of sources,
+                    including GenPept, RefSeq, Swiss-Prot, PIR, PRF, and PDB.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>PSSM Viewer</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/Class/Structure/pssm/pssm_viewer.cgi</url>
+            <shortDesc>
+                 Tool that displays and manipulates position-specific score matrices
+            </shortDesc>
+            <longDesc>
+                 Allows users to display, sort, subset and download position-specific score
+                    matrices (PSSMs) either from CDD records or from Position Specific Iterated
+                    (PSI)-BLAST protein searches. The tool also can align a query protein to the
+                    PSSM and highlight positions of high conservation.
+            </longDesc>
+        </resource><resource featured="true" dbname="pcassay">
+            <resource-type>Databases</resource-type>
+            <title>PubChem BioAssay</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+            </categories>
+            <url>/pcassay</url>
+            <shortDesc>
+                 Contributed bioactivity data for PubChem Substances
+            </shortDesc>
+            <longDesc>
+                 Consists of deposited bioactivity data and descriptions of bioactivity assays
+                    used to screen the chemical substances contained in the PubChem Substance
+                    database, including descriptions of the conditions and the readouts (bioactivity
+                    levels) specific to the screening procedure.
+            </longDesc>
+        </resource><resource featured="true" dbname="pccompound">
+            <resource-type>Databases</resource-type>
+            <title>PubChem Compound</title>
+            <categories>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+                <category>Chemicals &amp; Bioassays</category>
+            </categories>
+            <url>/pccompound</url>
+            <shortDesc>
+                 Unique, standardized chemical structures
+            </shortDesc>
+            <longDesc>
+                 Contains unique, validated chemical structures (small molecules) that can be
+                    searched using names, synonyms or keywords. The compound records may link to
+                    more than one PubChem Substance record if different depositors supplied the same
+                    structure. These Compound records reflect validated chemical depiction
+                    information provided to describe substances in PubChem Substance. Structures
+                    stored within PubChem Compounds are pre-clustered and cross-referenced by
+                    identity and similarity groups. Additionally, calculated properties and
+                    descriptors are available for searching and filtering of chemical
+                    structures.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>PubChem Deposition Gateway</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+                <category>Data &amp; Software</category>
+            </categories>
+            <url>http://pubchem.ncbi.nlm.nih.gov/deposit/deposit.cgi</url>
+            <shortDesc>
+                 Deposit data to PubChem Substance and Bioassay
+            </shortDesc>
+            <longDesc>
+                 This site is for users who want to contribute new data to PubChem and/or test
+                    data upload procedures. Contributors first create a test account where they can
+                    test the deposition procedures and preview their data records. They may then
+                    proceed to a deposition account whereby their data will be uploaded into the
+                    public database.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>PubChem Download Service</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+                <category>Data &amp; Software</category>
+            </categories>
+            <url>http://pubchem.ncbi.nlm.nih.gov/pc_fetch/pc_fetch.cgi</url>
+            <shortDesc>
+                 Web facility for downloading PubChem Compound and Substance data
+            </shortDesc>
+            <longDesc>
+                 This service allows users to download compound or substance records
+                    corresponding to a set of PubChem identifiers, which can be supplied manually or
+                    through a text file. Numerous download formats are available, including SDF, XML
+                    and SMILES.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>PubChem Power User Gateway (PUG)</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+                <category>Data &amp; Software</category>
+            </categories>
+            <url>http://pubchem.ncbi.nlm.nih.gov/pug/pughelp.html</url>
+            <shortDesc>
+                 PubChem API for downloads and structure searches
+            </shortDesc>
+            <longDesc>
+                 PUG provides access to PubChem services via a programmatic interface. PUG allows
+                    users to download data, initiate chemical structure searches, standardize
+                    chemical structures and interact with the E-utilities. PUG can be accessed using
+                    either standard URLs or via SOAP.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>PubChem Standardization Service</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+                <category>Data &amp; Software</category>
+            </categories>
+            <url>http://pubchem.ncbi.nlm.nih.gov/standardize/standardize.cgi</url>
+            <shortDesc>
+                 Preview a substance's standardized structure
+            </shortDesc>
+            <longDesc>
+                 Standardization, in PubChem terminology, is the processing of chemical
+                    structures in the same way used to create PubChem Compound records from
+                    contributors' original structures. This service lets users see how PubChem
+                    would handle any structure they would like to submit.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>PubChem Structure Search</title>
+            <categories>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+                <category>Chemicals &amp; Bioassays</category>
+                <category>Data &amp; Software</category>
+            </categories>
+            <url>http://pubchem.ncbi.nlm.nih.gov/search/search.cgi</url>
+            <shortDesc>
+                 Searches PubChem Compound by chemical structure
+            </shortDesc>
+            <longDesc>
+                 PubChem Structure Search allows the PubChem Compound Database to be queried by
+                    chemical structure or chemical structure pattern. The PubChem Sketcher allows a
+                    query to be drawn manually. Users may also specify the structural query input by
+                    PubChem Compound Identifier (CID), SMILES, SMARTS, InChI, Molecular Formula, or
+                    by upload of a supported structure file format.
+            </longDesc>
+        </resource><resource featured="true" dbname="pcsubstance">
+            <resource-type>Databases</resource-type>
+            <title>PubChem Substance</title>
+            <categories>
+                <category>Chemicals &amp; Bioassays</category>
+                <primary-category>Chemicals &amp; Bioassays</primary-category>
+            </categories>
+            <url>/pcsubstance</url>
+            <shortDesc>
+                 Provides information on the biological activities of small molecules.
+            </shortDesc>
+            <longDesc>
+                 PubChem Substance records contain substance information electronically submitted
+                    to PubChem by depositors. This includes any chemical structure information
+                    submitted, as well as chemical names, comments, and links to the depositor's
+                    web site.
+            </longDesc>
+        </resource><resource featured="true" dbname="pubmed">
+            <resource-type>Databases</resource-type>
+            <title>PubMed</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/pubmed</url>
+            <shortDesc>
+                 Biomedical literature abstracts
+            </shortDesc>
+            <longDesc>
+                 A database of citations and abstracts for biomedical literature from MEDLINE and
+                    additional life science journals. Links are provided when full text versions of
+                    the articles are available via PubMed Central (described below) or other
+                    websites.
+            </longDesc>
+        </resource><resource featured="true" dbname="pmc">
+            <resource-type>Databases</resource-type>
+            <title>PubMed Central (PMC)</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/pmc/</url>
+            <shortDesc>
+                 Free, full-text articles
+            </shortDesc>
+            <longDesc>
+                 A digital archive of full-text biomedical and life sciences journal literature,
+                    including clinical medicine and public health.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>PubMed Central (PMC) Open-Access Subset</title>
+            <categories>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/pmc/about/openftlist.html</url>
+            <shortDesc>
+                 Collection of PubMed Central articles available for downloading
+            </shortDesc>
+            <longDesc>
+                 The PMC Open-Access Subset is a relatively small part of the total collection of
+                    articles in PMC. Whereas the majority of articles in PMC are subject to
+                    traditional copyright restrictions, these articles are protected by copyright,
+                    but are made available under a Creative Commons or similar license that
+                    generally allows more liberal redistribution and reuse than a traditional
+                    copyright. Please refer to the license statement in each article for specific
+                    terms of use.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>PubMed Clinical Queries</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/pubmed/clinical </url>
+            <shortDesc>
+                 Directory of PubMed queries about clinical topics
+            </shortDesc>
+            <longDesc>
+                 A specialized PubMed search form targeted to clinicians and health services
+                    researchers. The page simplifies searching by clinical study category, finding
+                    systematic reviews and searching the medical genetics literature.
+            </longDesc>
+        </resource><resource featured="true" dbname="pubmedhealth">
+            <resource-type>Databases</resource-type>
+            <title>PubMed Health</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <category>Literature</category>
+                <primary-category>Literature</primary-category>
+            </categories>
+            <url>/pubmedhealth</url>
+            <shortDesc>
+                 clinical effectiveness reviews to help interpret clinical research results
+            </shortDesc>
+            <longDesc>
+                 A collection of clinical effectiveness reviews and other resources to help
+                    consumers and clinicians use and understand clinical research results. These are
+                    drawn from the NCBI Bookshelf and PubMed, including published systematic reviews
+                    from organizations such as the Agency for Health Care Research and Quality, The
+                    Cochrane Collaboration, and others (see <a href="/pubmedhealth/about/">complete
+                        listing</a>). Links to full text articles are provided when available.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>PubMed Tutorials</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>http://www.nlm.nih.gov/bsd/disted/pubmedtutorial/</url>
+            <shortDesc>
+                 Online tutorials on using PubMed, Entrez and MyNCBI
+            </shortDesc>
+            <longDesc>
+                 A collection of web and flash tutorials on PubMed searching and linking, saving
+                    searches in MyNCBI, using MeSH and other PubMed services.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Reference Sequence (RefSeq)</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+                <category>Proteins</category>
+            </categories>
+            <url>/RefSeq/</url>
+            <shortDesc>
+                 Curated nucleotide and protein sequences produced by NCBI
+            </shortDesc>
+            <longDesc>
+                 A collection of curated, non-redundant genomic DNA, transcript (RNA), and
+                    protein sequences produced by NCBI. RefSeqs provide a stable reference for
+                    genome annotation, gene identification and characterization, mutation and
+                    polymorphism analysis, expression studies, and comparative analyses. The RefSeq
+                    collection is accessed through the Nucleotide and Protein databases.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Databases</resource-type>
+            <title>RefSeqGene</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+                <category>Genes &amp; Expression</category>
+                <category>Genetics &amp; Medicine</category>
+            </categories>
+            <url>/refseq/rsg/</url>
+            <shortDesc>
+                 RefSeqGene reference standards for genomic sequences of well-characterized
+                    genes
+            </shortDesc>
+            <longDesc>A collection of human gene-specific reference genomic sequences. RefSeq gene
+                is a subset of  NCBI’s RefSeq database, and are defined based on review
+                from curators of locus-specific databases and the genetic testing community. They
+                form a stable foundation for reporting mutations, for establishing consistent intron
+                and exon numbering conventions, and for defining the coordinates of other
+                biologically significant variation. RefSeqGene is a part of the Locus Reference
+                Genomic (<a href="http://www.lrg-sequence.org/">LRG</a>) Collaboration. </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Related Structures</title>
+            <categories>
+                <category>Domains &amp; Structures</category>
+                <primary-category>Domains &amp; Structures</primary-category>
+            </categories>
+            <url>http://structure.ncbi.nlm.nih.gov/Structure/cblast/cblast.cgi</url>
+            <shortDesc>
+                 find 3D structures from the Molecular Modeling Database (MMDB) that are similar
+                    in sequence to a query protein.
+            </shortDesc>
+            <longDesc>
+                 The Related Structures tool allows users to find 3D structures from the
+                    Molecular Modeling Database (MMDB) that are similar in sequence to a query
+                    protein. Although the query protein may not yet have a resolved structure, the
+                    3D shape of a similar protein sequence can shed light on the putative shape and
+                    biological function of the query protein.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Retrovirus Resources</title>
+            <categories>
+                <category>Genetics &amp; Medicine</category>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/retroviruses/</url>
+            <shortDesc>
+                 Tools, maps, and sequence for retroviruses.
+            </shortDesc>
+            <longDesc>
+                 A collection of resources specifically designed to support the research of
+                    retroviruses, including a genotyping tool that uses the BLAST algorithm to
+                    identify the genotype of a query sequence; an alignment tool for global
+                    alignment of multiple sequences; an HIV-1 automatic sequence annotation tool;
+                    and annotated maps of numerous retroviruses viewable in GenBank, FASTA, and
+                    graphic formats, with links to associated sequence records.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Downloads</resource-type>
+            <title>RSS Feeds</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+            </categories>
+            <url>/feed/</url>
+            <shortDesc>
+                 RSS feeds available from NCBI
+            </shortDesc>
+            <longDesc>
+                 Subscribe to Web/RSS feeds for updates about NCBI resources.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>SARS CoV</title>
+            <categories>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/genomes/SARS/SARS.html</url>
+            <shortDesc>
+                 Data for the SARS coronavirus.
+            </shortDesc>
+            <longDesc>
+                 A summary of data for the SARS coronavirus (CoV), including links to the most
+                    recent sequence data and publications, links to other SARS related resources,
+                    and a pre-computed alignment of genome sequences from various isolates.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Science Primer</title>
+            <categories>
+                <category>Training &amp; Tutorials</category>
+                <primary-category>Training &amp; Tutorials</primary-category>
+            </categories>
+            <url>/About/primer/</url>
+            <shortDesc>
+                 An introduction to bioinformatics at NCBI
+            </shortDesc>
+            <longDesc>
+                 A basic introduction to the science and technology that underlies many of the
+                    NCBI resources. A great starting place for students and the general public, the
+                    Science Primer provides a basis for understanding the NCBI web site and mission,
+                    and provides direct links to many NCBI databases and tools. Topics include
+                    genome mapping, molecular modeling, mutations, microarrays (gene expression),
+                    genetics, pharmacogenomics (personalized medicine) and phylogenetics
+                    (evolutionary relationships).
+            </longDesc>
+        </resource><resource featured="true" dbname="sra">
+            <resource-type>Databases</resource-type>
+            <title>Sequence Read Archive (SRA)</title>
+            <categories>
+                <primary-category>DNA &amp; RNA</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/Traces/sra/sra.cgi?</url>
+            <shortDesc>
+                 Database of sequences reads from next generation sequencing technologies
+            </shortDesc>
+            <longDesc>
+                 The Sequence Read Archive (SRA) stores sequencing data from the next generation
+                    of sequencing platforms including Roche 454 GS System®, Illumina Genome
+                    Analyzer®, Life Technologies AB SOLiD System®, Helicos Biosciences Heliscope®,
+                    Complete Genomics®, and Pacific Biosciences SMRT®.
+            </longDesc>
+        </resource><resource dbname="sra">
+            <resource-type>Submissions</resource-type>
+            <title>Sequence Read Archive Submission</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/Traces/sra_sub/sub.cgi?</url>
+            <shortDesc>SRA submission guidelines.</shortDesc>
+            <longDesc>
+                 This link describes how submitters of SRA data can obtain a secure NCBI FTP site
+                    for their data, and also describes the allowed data formats and directory
+                    structures.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Sequence Viewer</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Proteins</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/projects/sviewer/</url>
+            <shortDesc>
+                 An interactive, online display format for sequences, with an embeddable web
+                    version available.
+            </shortDesc>
+            <longDesc>
+                 Provides a configurable graphical display of a nucleotide or protein sequence
+                    and features that have been annotated on that sequence. In addition to use on
+                    NCBI sequence database pages, this viewer is available as an embeddable webpage
+                    component. <a href="/projects/sviewer/embedded.html">Detailed documentation</a>
+                    including an API Reference guide is available for developers wishing to embed
+                    the viewer in their own pages.
+            </longDesc>
+        </resource><resource dbname="None">
+            <resource-type>Tools</resource-type>
+            <title>SNP Database Specialized Search Tools</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Variation</category>
+                <primary-category>Variation</primary-category>
+            </categories>
+            <url>/projects/SNP/</url>
+            <shortDesc>
+                 Set of custom tools for locating SNPs
+            </shortDesc>
+            <longDesc>
+                 A variety of tools are available for searching the SNP database, allowing search
+                    by genotype, method, population, submitter, markers and sequence similarity
+                    using BLAST. These are linked under ""Search"" on the left
+                    side bar of the dbSNP main page.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>SNP Submission Tool</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Variation</category>
+                <primary-category>Variation</primary-category>
+            </categories>
+            <url>http://www.ncbi.nlm.nih.gov/projects/SNP</url>
+            <shortDesc>
+                 The SNP database tools page provides links to the general submission guidelines
+                    and to the submission handle request.
+            </shortDesc>
+            <longDesc>
+                 The SNP database tools page provides links to the general submission guidelines
+                    and to the submission handle request. The page has also two specific links for
+                    single- or batch submissions of the human variation data using Human Genome
+                    Variation Society nomenclature.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Splign</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/sutils/splign</url>
+            <shortDesc>
+                 Tool for aligning transcripts to genomic DNA
+            </shortDesc>
+            <longDesc>
+                 A utility for computing cDNA-to-Genomic sequence alignments. It is based on a
+                    variation of the Needleman-Wunsch global alignment algorithm and specifically
+                    accounts for introns and splice signals. Due to this algorithm, Splign is
+                    accurate in determining splice sites and tolerant to sequencing errors.
+            </longDesc>
+        </resource><resource featured="true" dbname="structure">
+            <resource-type>Databases</resource-type>
+            <title>Structure (Molecular Modeling Database)</title>
+            <categories>
+                <category>Domains &amp; Structures</category>
+                <primary-category>Domains &amp; Structures</primary-category>
+            </categories>
+            <url>/sites/entrez?db=structure</url>
+            <shortDesc>
+                 Database of 3D macromolecular structures derived from PDB
+            </shortDesc>
+            <longDesc>
+                 Contains macromolecular 3D structures derived from the Protein Data Bank, as
+                    well as tools for their visualization and comparative analysis.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>Submission Portal</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+                <category>Literature</category>
+                <category>Variation</category>
+            </categories>
+            <url>http://submit.ncbi.nlm.nih.gov</url>
+            <shortDesc>
+                 NCBI-wide submission portal
+            </shortDesc>
+            <longDesc>
+                 A single entry point for submitters to link to and find information about all of
+                    the data submission processes at NCBI. Currently, this serves as an interface
+                    for the registration of BioProjects and BioSamples and submission of data for
+                    WGS and GTR. Future additions to this site are planned.
+            </longDesc>
+        </resource><resource featured="true" dbname="taxonomy">
+            <resource-type>Databases</resource-type>
+            <title>Taxonomy</title>
+            <categories>
+                <category>Taxonomy</category>
+                <primary-category>Taxonomy</primary-category>
+            </categories>
+            <url>/taxonomy</url>
+            <shortDesc>
+                 The NCBI taxonomy tree in Entrez
+            </shortDesc>
+            <longDesc>
+                 Contains the names and phylogenetic lineages of more than 160,000 organisms that
+                    have molecular data in the NCBI databases. New taxa are added to the Taxonomy
+                    database as data are deposited for them.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Taxonomy Browser</title>
+            <categories>
+                <category>Taxonomy</category>
+                <primary-category>Taxonomy</primary-category>
+            </categories>
+            <url>/Taxonomy/Browser/wwwtax.cgi?mode=Root</url>
+            <shortDesc>
+                 Displays and links Entrez data to each taxonomic node
+            </shortDesc>
+            <longDesc>
+                 Supports searching the taxonomy tree using partial taxonomic names, common
+                    names, wild cards and phonetically similar names. For each taxonomic node, the
+                    tool provides links to all data in Entrez for that node, displays the lineage,
+                    and provides links to external sites related to the node.
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Taxonomy Common Tree</title>
+            <categories>
+                <category>Taxonomy</category>
+                <primary-category>Taxonomy</primary-category>
+            </categories>
+            <url>/Taxonomy/CommonTree/wwwcmt.cgi</url>
+            <shortDesc>
+                 Creates custom taxonomic trees
+            </shortDesc>
+            <longDesc>
+                 Generates a taxonomic tree for a selected group of organisms. Users can upload a
+                    file of taxonomy IDs or names, or they can enter names or IDs directly.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Taxonomy Statistics</title>
+            <categories>
+                <primary-category>Taxonomy</primary-category>
+                <category>Taxonomy</category>
+            </categories>
+            <url>/Taxonomy/taxonomyhome.html/index.cgi?chapter=STATISTICS&amp;uncultured=hide&amp;unspecified=hide</url>
+            <shortDesc>
+                 Displays statistics related to the Taxonomy database
+            </shortDesc>
+            <longDesc>
+                 Displays the number of taxonomic nodes in the database for a given rank and date
+                    of inclusion.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Taxonomy Status Reports</title>
+            <categories>
+                <category>Taxonomy</category>
+                <primary-category>Taxonomy</primary-category>
+            </categories>
+            <url>/Taxonomy/TaxIdentifier/tax_identifier.cgi</url>
+            <shortDesc>
+                 Displays the status of a taxonomy ID
+            </shortDesc>
+            <longDesc>
+                 Displays the current status of a set of taxonomic nodes or IDs.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>TaxPlot</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <category>Homology</category>
+                <primary-category>Homology</primary-category>
+                <category>Sequence Analysis</category>
+            </categories>
+            <url>/sutils/taxik2.cgi</url>
+            <shortDesc>
+                 Tool to Compare three genomes based on protein homologs
+            </shortDesc>
+            <longDesc>
+                 A tool for comparing genomes on the basis of the protein sequences they encode.
+                    To use TaxPlot, one selects a reference genome and two species for comparison.
+                    Pre-computed BLAST results are then used to plot a point for each predicted
+                    protein in the reference genome, based on the best alignment with proteins in
+                    each of the two genomes being compared.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Third Party Annotation (TPA) Database</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <primary-category>DNA &amp; RNA</primary-category>
+            </categories>
+            <url>/genbank/TPA.html</url>
+            <shortDesc>
+                 Sequence annotations submitted for sequences already in GenBank
+            </shortDesc>
+            <longDesc>
+                 A database that contains sequences built from the existing primary sequence data
+                    in GenBank. The sequences and corresponding annotations are experimentally
+                    supported and have been published in a peer-reviewed scientific journal. TPA
+                    records are retrieved through the Nucleotide Database.
+            </longDesc>
+        </resource><resource featured="true" dbname="None">
+            <resource-type>Databases</resource-type>
+            <title>Trace Archive</title>
+            <categories>
+                <primary-category>DNA &amp; RNA</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/Traces/trace.cgi</url>
+            <shortDesc>
+                 DNA chromatograms, base calls, and quality estimates for single-pass reads.
+            </shortDesc>
+            <longDesc>
+                 A repository of DNA sequence chromatograms (traces), base calls, and quality
+                    estimates for single-pass reads from various large-scale sequencing
+                    projects.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Submissions</resource-type>
+            <title>Trace Archive Submission</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <primary-category>Data &amp; Software</primary-category>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/Traces/trace.cgi?cmd=show&amp;f=submit&amp;m=doc&amp;s=submit</url>
+            <shortDesc>
+                 Trace submission information.
+            </shortDesc>
+            <longDesc>
+                 This link describes how submitters of trace data can obtain a secure NCBI FTP
+                    site for their data, and also describes the allowed data formats and directory
+                    structures.
+            </longDesc>
+        </resource><resource featured="true" dbname="unigene">
+            <resource-type>Databases</resource-type>
+            <title>UniGene</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/unigene</url>
+            <shortDesc>
+                 Gene-centered clusters of transcripts and ESTs
+            </shortDesc>
+            <longDesc>
+                 A database that provides sets of transcript sequences that appear to come from
+                    the same transcription locus (gene or expressed pseudogene), together with
+                    information on protein similarities, gene expression, cDNA clone reagents, and
+                    genomic location.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>UniGene Library Browser</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <category>Genes &amp; Expression</category>
+                <primary-category>Genes &amp; Expression</primary-category>
+            </categories>
+            <url>/UniGene/lbrowse2.cgi</url>
+            <shortDesc>
+                 Collection of EST libraries in UniGene
+            </shortDesc>
+            <longDesc>
+                 This database contains libraries of Expressed Sequence Tags (ESTs) organized by
+                    organism, tissue type and developmental stage.
+            </longDesc>
+        </resource><resource featured="true" dbname="unists">
+            <resource-type>Databases</resource-type>
+            <title>UniSTS</title>
+            <categories>
+                <category>DNA &amp; RNA</category>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/unists</url>
+            <shortDesc>
+                 Database of Sequence Tagged Sites
+            </shortDesc>
+            <longDesc>
+                 A comprehensive database of sequence tagged sites (STSs) derived from STS-based
+                    maps and other experiments. STSs are defined by PCR primer pairs and are
+                    associated with additional information, such as genomic position, genes, and
+                    sequences.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Variation Reporter</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Variation</category>
+                <primary-category>Variation</primary-category>
+            </categories>
+            <url>/variation/tools/reporter </url>
+            <shortDesc>
+                 A report generator for information about human variations by sequence location
+                    and allele
+            </shortDesc>
+            <longDesc>
+                 A tool designed to search for and report human sequence variation data from <a href="/snp">dbSNP</a> and <a href="/dbvar">dbVar</a>. Individual variations
+                    or batch files can be submitted in HGVS, GVF or BED formats. Related information
+                    will be retrieved and reported in a downloadable table containing variation
+                    identifiers, nucleotide and cytogenetic band locations on various genomic
+                    assemblies, allele type and minor allele frequencies, predicted functional
+                    consequences (missense, nonsense, frameshift, splice site, etc.), reported
+                    clinical significance, and relevant citations.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>VecScreen</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>DNA &amp; RNA</category>
+                <category>Sequence Analysis</category>
+                <primary-category>Sequence Analysis</primary-category>
+            </categories>
+            <url>/VecScreen/VecScreen.html</url>
+            <shortDesc>
+                 Tool for detecting vector contamination
+            </shortDesc>
+            <longDesc>
+                 A system for quickly identifying segments of a nucleic acid sequence that may be
+                    of vector origin. VecScreen searches a query sequence for segments that match
+                    any sequence in a specialized non-redundant vector database (UniVec).
+            </longDesc>
+        </resource><resource featured="true" dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Vector Alignment Search Tool (VAST)</title>
+            <categories>
+                <category>Data &amp; Software</category>
+                <category>Domains &amp; Structures</category>
+                <primary-category>Domains &amp; Structures</primary-category>
+            </categories>
+            <url>/Structure/VAST/vast.html</url>
+            <shortDesc>
+                 Tool that generates 3D structural alignments
+            </shortDesc>
+            <longDesc>
+                 A computer algorithm that identifies similar protein 3-dimensional structures.
+                    Structure neighbors for every structure in MMDB are pre-computed and accessible
+                    via links on the MMDB Structure Summary pages. These neighbors can be used to
+                    identify distant homologs that cannot be recognized by sequence comparison
+                    alone.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Viral Genomes</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+            </categories>
+            <url>/genomes/GenomesHome.cgi?</url>
+            <shortDesc>
+                 Comprehensive collection of viral resources.
+            </shortDesc>
+            <longDesc>
+                 A wide range of resources, including a brief summary of the biology of viruses,
+                    links to viral genome sequences in Entrez Genome, and information about viral
+                    Reference Sequences, a collection of reference sequences for thousands of viral
+                    genomes.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Tools</resource-type>
+            <title>Viral Genotyping Tool</title>
+            <categories>
+                <category>Genomes &amp; Maps</category>
+                <primary-category>Genomes &amp; Maps</primary-category>
+                <category>Variation</category>
+            </categories>
+            <url>/projects/genotyping/formpage.cgi</url>
+            <shortDesc>
+                 Tool for identifying viral genotypes using BLAST
+            </shortDesc>
+            <longDesc>
+                 This tool helps identify the genotype of a viral sequence. A window is slid
+                    along the query sequence and each window is compared by BLAST to each of the
+                    reference sequences for a particular virus.
+            </longDesc>
+        </resource><resource dbname="">
+            <resource-type>Databases</resource-type>
+            <title>Virus Variation</title>
+            <categories>
+                <primary-category>Genetics &amp; Medicine</primary-category>
+                <category>Genetics &amp; Medicine</category>
+                <category>Genomes &amp; Maps</category>
+            </categories>
+            <url>/genomes/VirusVariation/</url>
+            <shortDesc>
+                 Data and tools for selected viruses.
+            </shortDesc>
+            <longDesc>
+                 An extension of the Influenza Virus Resource to other organisms, providing an
+                    interface to download sequence sets of selected viruses, analysis tools,
+                    including virus-specific BLAST pages, and genome annotation pipelines.
+            </longDesc>
+        </resource></resources>
