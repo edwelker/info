@@ -5,16 +5,10 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'info.settings'
 from web_resources.models import PrimaryResource, Resource, Keyword, Category
 from lxml import etree
 
-parser = etree.XMLParser(ns_clean=True, recover=True)
-xml = etree.parse('data/sitemap_and_resources.xml', parser)
 
-for el in xml.getroot():
-    id = el.get('id')
-    
-    keywords = []
-    subresources = []
-    categories = []
-
+def searchXML(el, keywords, subresources, categories):
+    title = desc = link = primcat = None 
+    shortdesc = longdesc = ''
     for child in el:
 
         if child.tag == 'Title':
@@ -25,15 +19,15 @@ for el in xml.getroot():
             link = child.text.encode("utf8")
         if child.tag == 'Keyword':
             keywords.append( child.text )
-        if child.tag == 'shortdesc':
+        if child.tag == 'shortDesc':
             if child.text:    
                 shortdesc = child.text.encode('utf8').strip()
-            else:
+            else: 
                 shortdesc = ''
-        if child.tag == 'longdesc':
+        if child.tag == 'longDesc':
             if child.text:
                 longdesc = child.text.encode('utf8').strip()
-            else:
+            else: 
                 longdesc = ''
 
         if child.tag == 'categories':
@@ -52,22 +46,43 @@ for el in xml.getroot():
                 if element.tag == 'Link':
                     alt['link'] = element.text.encode("utf8")
             subresources.append( alt )
-            
+    
+    return (title, desc, link, shortdesc, longdesc, primcat)
+
+
+
+parser = etree.XMLParser(ns_clean=True, recover=True)
+xml = etree.parse('data/sitemap_and_resources.xml', parser)
+
+for el in xml.getroot():
+    id = el.get('id')
+   
+    title = desc = link = shortdesc = longdesc = primcat = None
+    keywords = []
+    subresources = []
+    categories = []
+
+    title, desc, link, shortdesc, longdesc, primcat = searchXML(el, keywords, subresources, categories)         
 
     
     #print "id: %s\ntitle: %s\ndesc: %s\nlink: %s" % (id, title, desc, link)
     #print "Loading... %s" % title
 
     try:
-        pcat = Category.objects.get(display_name = primcat )
-        resource = PrimaryResource.objects.create(id=id, name=title, url=link, desc=desc, 
-                                                  shortdesc=shortdesc,longdesc=longdesc,
-                                                  primary_category=pcat
-                                                 )
+        if primcat is not None:
+            pcat = Category.objects.get(display_name = primcat )
+            resource = PrimaryResource.objects.create(id=id, name=title, url=link, desc=desc, 
+                                                      shortdesc=shortdesc,longdesc=longdesc,
+                                                      primary_category=pcat
+                                                     )  
+        else: 
+            resource = PrimaryResource.objects.create(id=id, name=title, url=link, desc=desc, 
+                                                      shortdesc=shortdesc,longdesc=longdesc
+                                                     )
     except Exception, err:
         #print "Resource error: %s, \n%s from id: %s" % (err, link, id)
         #print err
-        print "Resource error: %s, \n%s\n from id: %s" % (err, link, id)
+        print "Resource error: %s, \n%s\n from id: %s\nprimarycat: %s" % (err, link, id, primcat)
 
     #print keywords
 
@@ -90,3 +105,13 @@ for el in xml.getroot():
         print "SubResource error: %s, \n%s\n from id: %s" % (err, sub['link'], sub['id'])
         #print err
         #import pdb; pdb.set_trace()
+
+
+#now for the dump file 
+#dump = etree.parse('data/dump_out.xml', parser)
+
+#for el in dump.getroot():
+#    id = el.get('dbname')
+#    featured = el.get('featured')
+
+
