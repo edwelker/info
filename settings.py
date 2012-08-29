@@ -1,7 +1,5 @@
 # Django settings for info project.
 
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
@@ -11,6 +9,15 @@ MANAGERS = ADMINS
 
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x) 
+env = os.path.basename(os.path.normpath(here))
+
+if env == 'dev_info':
+    DEBUG = True
+    TEMPLATE_DEBUG = DEBUG
+elif env == 'info':
+    DEBUG = False 
+    TEMPLATE_DEBUG = False
+    
 
 DATABASES = {
     'default': {
@@ -106,10 +113,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'info.urls'
+ROOT_URLCONF = 'dev_info.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'info.wsgi.application'
+WSGI_APPLICATION = 'dev_info.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
