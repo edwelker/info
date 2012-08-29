@@ -9,7 +9,7 @@ MANAGERS = ADMINS
 
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x) 
-env = os.path.basename(os.path.normpath(here))
+env = os.path.basename(os.path.normpath(here()))
 
 if env == 'dev_info':
     DEBUG = True
