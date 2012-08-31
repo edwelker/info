@@ -1,6 +1,11 @@
 import os
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'info.settings'
+env_name = os.path.basename(os.path.normpath(os.path.dirname(os.path.abspath(__file__))))
+env_settings = env_name + ".settings"
+
+print env_settings
+
+os.environ['DJANGO_SETTINGS_MODULE'] = env_settings 
 
 from web_resources.models import PrimaryResource, Resource, Keyword, Category
 from lxml import etree

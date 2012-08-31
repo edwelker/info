@@ -15,7 +15,18 @@ framework.
 """
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "info.settings")
+env_name = os.path.basename(os.path.normpath(os.path.dirname(os.path.abspath(__file__))))
+env_settings = env_name + ".settings"
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", env_settings)
+
+import sys
+sys.path.insert(0, '/home/welkere/python')
+sys.path.insert(0, '/home/welkere/python/dev_info')
+
+#print "\n\n\n\n"
+#for param in os.environ.keys():
+#    print "%30s %s" % (param,os.environ[param])
 
 # This application object is used by any WSGI server configured to use this
 # file. This includes Django's development server, if the WSGI_APPLICATION
