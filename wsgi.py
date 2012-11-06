@@ -15,14 +15,18 @@ framework.
 """
 import os
 
-env_name = os.path.basename(os.path.normpath(os.path.dirname(os.path.abspath(__file__))))
-env_settings = env_name + ".settings"
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", env_settings)
+#!!! none of the following should be needed, as it causes the same paths to be imported
+#!!! multiple times, which results in multiple (odd) errors for the same app
 
-import sys
-sys.path.insert(0, '/home/welkere/python')
-sys.path.insert(0, '/home/welkere/python/dev_info')
+#env_name = os.path.basename(os.path.normpath(os.path.dirname(os.path.abspath(__file__))))
+#env_settings = env_name + ".settings"
+
+#os.environ.setdefault("DJANGO_SETTINGS_MODULE", env_settings)
+
+#import sys
+#sys.path.insert(0, '/home/welkere/python')
+#sys.path.insert(0, '/home/welkere/python/dev_info')
 
 #print "\n\n\n\n"
 #for param in os.environ.keys():
