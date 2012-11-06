@@ -25,7 +25,7 @@ os.environ['VIRTUAL_ENV'] = venv_loc
 venv = activate_loc
 execfile(venv, dict(__file__=venv))
 
-#_project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #print _project_dir
 
@@ -41,7 +41,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = settings
 
 #for param in os.environ.keys():
 #    print "%30s %s" % (param,os.environ[param])
- 
+
+
 from django.core.servers.fastcgi import runfastcgi
 runfastcgi(method="threaded", daemonize="false")
-

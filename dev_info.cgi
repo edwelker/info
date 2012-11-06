@@ -1,7 +1,7 @@
 #!/bin/env sh
 
-#echo Content-type:text/plain
-#echo ""
+echo Content-type:text/plain
+echo ""
 #echo $REQUEST_METHOD
 #echo $SERVER_NAME
 #echo $SERVER_PORT
